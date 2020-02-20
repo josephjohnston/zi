@@ -1,0 +1,771 @@
+{
+	"1": {
+		"char": "一",
+		"subchars": [],
+		"tone": 1,
+		"sound": "yi",
+		"en": "one",
+		"primitive": "floor; ceiling"
+	},
+	"2": {
+		"char": "二",
+		"subchars": [],
+		"tone": 4,
+		"sound": "er",
+		"en": "two",
+		"primitive": ""
+	},
+	"3": {
+		"char": "三",
+		"subchars": [],
+		"tone": 3,
+		"sound": "san",
+		"en": "three",
+		"primitive": ""
+	},
+	"4": {
+		"char": "四",
+		"subchars": [],
+		"tone": 4,
+		"sound": "si",
+		"en": "four",
+		"primitive": ""
+	},
+	"5": {
+		"char": "五",
+		"subchars": [],
+		"tone": 3,
+		"sound": "wu",
+		"en": "five",
+		"primitive": ""
+	},
+	"6": {
+		"char": "六",
+		"subchars": [],
+		"tone": 4,
+		"sound": "liu",
+		"en": "six",
+		"primitive": ""
+	},
+	"7": {
+		"char": "七",
+		"subchars": [],
+		"tone": 1,
+		"sound": "qi",
+		"en": "seven",
+		"primitive": "diced"
+	},
+	"8": {
+		"char": "八",
+		"subchars": [],
+		"tone": 1,
+		"sound": "ba",
+		"en": "eight",
+		"primitive": ""
+	},
+	"9": {
+		"char": "九",
+		"subchars": [],
+		"tone": 3,
+		"sound": "jiu",
+		"en": "nine",
+		"primitive": "baseball"
+	},
+	"10": {
+		"char": "十",
+		"subchars": [],
+		"tone": 2,
+		"sound": "shi",
+		"en": "ten",
+		"primitive": "needle"
+	},
+	"11": {
+		"char": "口",
+		"subchars": [],
+		"tone": 3,
+		"sound": "kou",
+		"en": "mouth",
+		"primitive": "mouth"
+	},
+	"12": {
+		"char": "日",
+		"subchars": [],
+		"tone": 4,
+		"sound": "ri",
+		"en": "day",
+		"primitive": "day; sun; tongue wagging in the mouth"
+	},
+	"13": {
+		"char": "月",
+		"subchars": [],
+		"tone": 4,
+		"sound": "yue",
+		"en": "month",
+		"primitive": "moon; flesh; part of the body"
+	},
+	"14": {
+		"char": "田",
+		"subchars": [],
+		"tone": 2,
+		"sound": "tian",
+		"en": "rice field",
+		"primitive": "rice field; brains"
+	},
+	"15": {
+		"char": "目",
+		"subchars": [],
+		"tone": 4,
+		"sound": "mu",
+		"en": "eye",
+		"primitive": "eye; eyeball; net (when modified)"
+	},
+	"16": {
+		"char": "古",
+		"subchars": [10,11],
+		"tone": 3,
+		"sound": "gu",
+		"en": "ancient",
+		"primitive": "ancient"
+	},
+	"17": {
+		"char": "胡",
+		"subchars": [16,13],
+		"tone": 2,
+		"sound": "hu",
+		"en": "recklessly",
+		"primitive": ""
+	},
+	"18": {
+		"char": "叶",
+		"subchars": [11,10],
+		"tone": 4,
+		"sound": "ye",
+		"en": "leaf",
+		"primitive": ""
+	},
+	"19": {
+		"char": "吾",
+		"subchars": [5,11],
+		"tone": 2,
+		"sound": "wu",
+		"en": "I (literary)",
+		"primitive": ""
+	},
+	"20": {
+		"char": "朋",
+		"subchars": [13,13],
+		"tone": 2,
+		"sound": "peng",
+		"en": "companion",
+		"primitive": ""
+	},
+	"21": {
+		"char": "明",
+		"subchars": [12,13],
+		"tone": 2,
+		"sound": "ming",
+		"en": "bright",
+		"primitive": ""
+	},
+	"22": {
+		"char": "品",
+		"subchars": [11,11,11],
+		"tone": 3,
+		"sound": "pin",
+		"en": "goods",
+		"primitive": ""
+	},
+	"23": {
+		"char": "晶",
+		"subchars": [12,12,12],
+		"tone": 1,
+		"sound": "jing",
+		"en": "sparkling",
+		"primitive": ""
+	},
+	"24": {
+		"char": "昌",
+		"subchars": [12,12],
+		"tone": 1,
+		"sound": "chang",
+		"en": "prosperous",
+		"primitive": ""
+	},
+	"25": {
+		"char": "唱",
+		"subchars": [11,24],
+		"tone": 4,
+		"sound": "chang",
+		"en": "sing",
+		"primitive": ""
+	},
+	"26": {
+		"char": "早",
+		"subchars": [12,10],
+		"tone": 3,
+		"sound": "zao",
+		"en": "early",
+		"primitive": "sunflower"
+	},
+	"27": {
+		"char": "旭",
+		"subchars": [9,12],
+		"tone": 4,
+		"sound": "xu",
+		"en": "rising sun",
+		"primitive": ""
+	},
+	"28": {
+		"char": "世",
+		"subchars": [],
+		"tone": 4,
+		"sound": "shi",
+		"en": "generation",
+		"primitive": ""
+	},
+	"29": {
+		"char": "胃",
+		"subchars": [14,13],
+		"tone": 4,
+		"sound": "wei",
+		"en": "stomach",
+		"primitive": ""
+	},
+	"30": {
+		"char": "旦",
+		"subchars": [12,1],
+		"tone": 4,
+		"sound": "dan",
+		"en": "daybreak",
+		"primitive": ""
+	},
+	"31": {
+		"char": "凹",
+		"subchars": [],
+		"tone": 1,
+		"sound": "ao",
+		"en": "concave",
+		"primitive": ""
+	},
+	"32": {
+		"char": "凸",
+		"subchars": [],
+		"tone": 1,
+		"sound": "tu",
+		"en": "convex",
+		"primitive": ""
+	},
+	"33": {
+		"char": "自",
+		"subchars": [-1,15],
+		"tone": 4,
+		"sound": "zi",
+		"en": "oneself",
+		"primitive": "oneself; nose; nostrils"
+	},
+	"34": {
+		"char": "白",
+		"subchars": [-1,12],
+		"tone": 2,
+		"sound": "bai",
+		"en": "white",
+		"primitive": "white; white bird; dove"
+	},
+	"35": {
+		"char": "百",
+		"subchars": [1,34],
+		"tone": 3,
+		"sound": "bai",
+		"en": "hundred",
+		"primitive": ""
+	},
+	"36": {
+		"char": "皂",
+		"subchars": [34,7],
+		"tone": 4,
+		"sound": "zao",
+		"en": "soap",
+		"primitive": ""
+	},
+	"37": {
+		"char": "旧",
+		"subchars": [-2,12],
+		"tone": 4,
+		"sound": "jiu",
+		"en": "old",
+		"primitive": ""
+	},
+	"38": {
+		"char": "中",
+		"subchars": [-2,11],
+		"tone": 1,
+		"sound": "zhong",
+		"en": "middle",
+		"primitive": ""
+	},
+	"39": {
+		"char": "千",
+		"subchars": [-1,10],
+		"tone": 1,
+		"sound": "qian",
+		"en": "thousand",
+		"primitive": ""
+	},
+	"40": {
+		"char": "舌",
+		"subchars": [39,11],
+		"tone": 2,
+		"sound": "she",
+		"en": "tongue",
+		"primitive": ""
+	},
+	"41": {
+		"char": "升",
+		"subchars": [39,10],
+		"tone": 1,
+		"sound": "sheng",
+		"en": "liter",
+		"primitive": ""
+	},
+	"42": {
+		"char": "丸",
+		"subchars": [9,-1],
+		"tone": 2,
+		"sound": "wan",
+		"en": "pill",
+		"primitive": "bottle of pills"
+	},
+	"43": {
+		"char": "卜",
+		"subchars": [-2,-1],
+		"tone": 3,
+		"sound": "bu",
+		"en": "divination",
+		"primitive": "divining rod; magic wand"
+	},
+	"44": {
+		"char": "占",
+		"subchars": [43,11],
+		"tone": 1,
+		"sound": "zhan",
+		"en": "tell fortunes",
+		"primitive": ""
+	},
+	"45": {
+		"char": "上",
+		"subchars": [43,1],
+		"tone": 4,
+		"sound": "shang",
+		"en": "above",
+		"primitive": ""
+	},
+	"46": {
+		"char": "下",
+		"subchars": [1,43],
+		"tone": 4,
+		"sound": "xia",
+		"en": "below",
+		"primitive": ""
+	},
+	"47": {
+		"char": "卡",
+		"subchars": [45,46],
+		"tone": 3,
+		"sound": "ka",
+		"en": "card",
+		"primitive": ""
+	},
+	"48": {
+		"char": "卓",
+		"subchars": [43,26],
+		"tone": 2,
+		"sound": "zhuo",
+		"en": "eminent",
+		"primitive": ""
+	},
+	"49": {
+		"char": "朝",
+		"subchars": [-3,13],
+		"tone": 2,
+		"sound": "chao",
+		"en": "dynasty",
+		"primitive": ""
+	},
+	"50": {
+		"char": "嘲",
+		"subchars": [11,49],
+		"tone": 3,
+		"sound": "chao",
+		"en": "ridicule (verb)",
+		"primitive": ""
+	},
+	"51": {
+		"char": "只",
+		"subchars": [11,-4],
+		"tone": 3,
+		"sound": "zhi",
+		"en": "only",
+		"primitive": ""
+	},
+	"52": {
+		"char": "贝",
+		"subchars": [15,-4],
+		"tone": 4,
+		"sound": "bei",
+		"en": "shellfish",
+		"primitive": "shellfish; shell; oyster; clam"
+	},
+	"53": {
+		"char": "贴",
+		"subchars": [52,44],
+		"tone": 1,
+		"sound": "paste (verb)",
+		"en": "tie",
+		"primitive": ""
+	},
+	"54": {
+		"char": "贞",
+		"subchars": [43,52],
+		"tone": 1,
+		"sound": "chaste",
+		"en": "zhen",
+		"primitive": ""
+	},
+	"55": {
+		"char": "员",
+		"subchars": [11,52],
+		"tone": 2,
+		"sound": "yuan",
+		"en": "employee",
+		"primitive": ""
+	},
+	"56": {
+		"char": "儿",
+		"subchars": [],
+		"tone": 2,
+		"sound": "er",
+		"en": "youngster",
+		"primitive": "human legs"
+	},
+	"57": {
+		"char": "几",
+		"subchars": [],
+		"tone": 3,
+		"sound": "ji",
+		"en": "how many?",
+		"primitive": "wind; small table"
+	},
+	"58": {
+		"char": "见",
+		"subchars": [15,56],
+		"tone": 4,
+		"sound": "jian",
+		"en": "see",
+		"primitive": ""
+	},
+	"59": {
+		"char": "元",
+		"subchars": [2,56],
+		"tone": 2,
+		"sound": "yuan",
+		"en": "beginning",
+		"primitive": ""
+	},
+	"60": {
+		"char": "页",
+		"subchars": [1,-1,52],
+		"tone": 4,
+		"sound": "ye",
+		"en": "page",
+		"primitive": "head (likely detached from body)"
+	},
+	"61": {
+		"char": "顽",
+		"subchars": [59,60],
+		"tone": 2,
+		"sound": "wan",
+		"en": "stubborn",
+		"primitive": ""
+	},
+	"62": {
+		"char": "凡",
+		"subchars": [-1,57],
+		"tone": 2,
+		"sound": "fan",
+		"en": "ordinary",
+		"primitive": ""
+	},
+	"63": {
+		"char": "肌",
+		"subchars": [13,57],
+		"tone": 1,
+		"sound": "ji",
+		"en": "muscle",
+		"primitive": ""
+	},
+	"64": {
+		"char": "负",
+		"subchars": [-5,52],
+		"tone": 4,
+		"sound": "fu",
+		"en": "defeated (adjective)",
+		"primitive": ""
+	},
+	"65": {
+		"char": "万",
+		"subchars": [1,-5],
+		"tone": 4,
+		"sound": "wan",
+		"en": "ten thousand",
+		"primitive": ""
+	},
+	"66": {
+		"char": "匀",
+		"subchars": [-5,2],
+		"tone": 2,
+		"sound": "yun",
+		"en": "uniform (adjective)",
+		"primitive": ""
+	},
+	"67": {
+		"char": "句",
+		"subchars": [-5,11],
+		"tone": 4,
+		"sound": "ju",
+		"en": "sentence (noun)",
+		"primitive": ""
+	},
+	"68": {
+		"char": "旬",
+		"subchars": [-5,12],
+		"tone": 2,
+		"sound": "xun",
+		"en": "decameron",
+		"primitive": ""
+	},
+	"69": {
+		"char": "勺",
+		"subchars": [-5,-1],
+		"tone": 2,
+		"sound": "shao",
+		"en": "ladle",
+		"primitive": ""
+	},
+	"70": {
+		"char": "的",
+		"subchars": [34,69],
+		"tone": 0,
+		"sound": "de",
+		"en": "bull's eye",
+		"primitive": ""
+	},
+	"71": {
+		"char": "首",
+		"subchars": [-6,1,33],
+		"tone": 3,
+		"sound": "shou",
+		"en": "heads",
+		"primitive": ""
+	},
+	"72": {
+		"char": "直",
+		"subchars": [10,15],
+		"tone": 2,
+		"sound": "zhi",
+		"en": "straight",
+		"primitive": ""
+	},
+	"73": {
+		"char": "置",
+		"subchars": [15,72],
+		"tone": 4,
+		"sound": "zhi",
+		"en": "setup",
+		"primitive": ""
+	},
+	"74": {
+		"char": "具",
+		"subchars": [15,-7],
+		"tone": 4,
+		"sound": "ju",
+		"en": "tool",
+		"primitive": ""
+	},
+	"75": {
+		"char": "真",
+		"subchars": [10,74],
+		"tone": 1,
+		"sound": "zhen",
+		"en": "true",
+		"primitive": ""
+	},
+	"76": {
+		"char": "工",
+		"subchars": [],
+		"tone": 1,
+		"sound": "gong",
+		"en": "work (noun)",
+		"primitive": "I-beam"
+	},
+	"77": {
+		"char": "左",
+		"subchars": [-8,76],
+		"tone": 3,
+		"sound": "zuo",
+		"en": "left",
+		"primitive": ""
+	},
+	"78": {
+		"char": "右",
+		"subchars": [-8,11],
+		"tone": 4,
+		"sound": "you",
+		"en": "right",
+		"primitive": ""
+	},
+	"79": {
+		"char": "有",
+		"subchars": [-8,13],
+		"tone": 3,
+		"sound": "you",
+		"en": "possess",
+		"primitive": ""
+	},
+	"80": {
+		"char": "贿",
+		"subchars": [52,79],
+		"tone": 4,
+		"sound": "hui",
+		"en": "bribe (noun)",
+		"primitive": ""
+	},
+	"81": {
+		"char": "贡",
+		"subchars": [76,52],
+		"tone": 4,
+		"sound": "gong",
+		"en": "tribute",
+		"primitive": ""
+	},
+	"82": {
+		"char": "项",
+		"subchars": [76,60],
+		"tone": 4,
+		"sound": "xiang",
+		"en": "item",
+		"primitive": ""
+	},
+	"83": {
+		"char": "刀",
+		"subchars": [],
+		"tone": 1,
+		"sound": "dao",
+		"en": "sword",
+		"primitive": "dagger when to the right like (); saber when to the left like ()"
+	},
+	"84": {
+		"char": "刃",
+		"subchars": [83,-1],
+		"tone": 4,
+		"sound": "ren",
+		"en": "blade",
+		"primitive": ""
+	},
+	"85": {
+		"char": "切",
+		"subchars": [7,83],
+		"tone": 4,
+		"sound": "qie",
+		"en": "cut (verb)",
+		"primitive": ""
+	},
+	"86": {
+		"char": "召",
+		"subchars": [83,11],
+		"tone": 4,
+		"sound": "zhao",
+		"en": "summon",
+		"primitive": "summon"
+	},
+	"87": {
+		"char": "昭",
+		"subchars": [12,86],
+		"tone": 1,
+		"sound": "zhao",
+		"en": "evident",
+		"primitive": ""
+	},
+	"88": {
+		"char": "则",
+		"subchars": [52,83],
+		"tone": 2,
+		"sound": "ze",
+		"en": "rule (noun)",
+		"primitive": ""
+	},
+	"89": {
+		"char": "副",
+		"subchars": [-9,83],
+		"tone": 4,
+		"sound": "fu",
+		"en": "vice-",
+		"primitive": ""
+	},
+	"90": {
+		"char": "丁",
+		"subchars": [],
+		"tone": 1,
+		"sound": "ding",
+		"en": "fourth",
+		"primitive": "nail; spike; thumbtack when single stroke like ()"
+	},
+	"91": {
+		"char": "叮",
+		"subchars": [11,90],
+		"tone": 1,
+		"sound": "ding",
+		"en": "sting (verb)",
+		"primitive": ""
+	},
+	"92": {
+		"char": "可",
+		"subchars": [90,11],
+		"tone": 3,
+		"sound": "ke",
+		"en": "can (aux. verb)",
+		"primitive": ""
+	},
+	"93": {
+		"char": "哥",
+		"subchars": [92,92],
+		"tone": 1,
+		"sound": "ge",
+		"en": "older brother",
+		"primitive": ""
+	},
+	"94": {
+		"char": "顶",
+		"subchars": [90,60],
+		"tone": 3,
+		"sound": "ding",
+		"en": "crest",
+		"primitive": ""
+	},
+	"110": {
+		"char": "科",
+		"subchars": [],
+		"tone": 2,
+		"sound": "ping",
+		"en": "word",
+		"primitive": ""
+	}
+}
+	// ,
+	// "": {
+	// 	"char": "",
+	// 	"subchars": [],
+	// 	"tone": 0,
+	// 	"sound": "",
+	// 	"en": "",
+	// 	"primitive": ""
+	// }

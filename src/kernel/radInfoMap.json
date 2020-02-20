@@ -1,0 +1,63 @@
+{
+	"-1": {
+		"rad": "丶",
+		"subchars": [],
+		"en": "a drop of",
+		"other": ""
+	},
+	"-2": {
+		"rad": "丨",
+		"subchars": [],
+		"en": "walking stick",
+		"other": "rarely layed on its side, in which case it will cross through another primitive"
+	},
+	"-3": {
+		"rad": "龺",
+		"subchars": [10,26],
+		"en": "mist",
+		"other": ""
+	},
+	"-4": {
+		"rad": "八",
+		"subchars": [],
+		"en": "animal legs",
+		"other": ""
+	},
+	"-5": {
+		"rad": "勹",
+		"subchars": [],
+		"en": "bound up",
+		"other": ""
+	},
+	"-6": {
+		"rad": "丷",
+		"subchars": [],
+		"en": "horns",
+		"other": ""
+	},
+	"-7": {
+		"rad": "具",
+		"subchars": [-1,-4],
+		"en": "tool",
+		"other": "",
+	},
+	"-8": {
+		"rad": "𠂇",
+		"subchars": [],
+		"en": "by one's side",
+		"other": ""
+	},
+	"-9": {
+		"rad": "畐",
+		"subchars": [1,11,14],
+		"en": "wealth",
+		"other": ""
+	}
+}
+	// ,
+	// "": {
+	// 	"rad": "",
+	// 	"subchars": [],
+	// 	"en": "",
+	// 	"other": ""
+	// }
