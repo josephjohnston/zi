@@ -51,9 +51,9 @@ const ViewRad = props => {
 					<Text>
 						{ radInfo.subchars.length > 0
 							?
-							'sub-characters: '
+							'Sub-characters: '
 							:
-							'no sub-characters'
+							'No sub-characters'
 						}
 					</Text>
 					<Bar>
@@ -66,8 +66,8 @@ const ViewRad = props => {
 					<Text>
 						{
 							radInfo.other !== ''
-							? 'primitive meanings: '
-							: 'no comments'
+							? 'Primitive meanings: '
+							: 'No comments'
 						}
 						{radInfo.other}
 					</Text>

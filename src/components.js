@@ -24,7 +24,8 @@ export const Container = styled.div`
 
 export const Text = styled.p`
 	font-size: ${props => (props.size || 1)}em;
-	font-weight: 900;
+	font-family: Noto Sans SC;
+	font-weight: ${props => props.bold ? 'bold' : 'normal'};
 	word-break: break-all;
 	color: ${props => (props.color || colors.text)};
 `

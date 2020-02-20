@@ -38,7 +38,7 @@ library.add(
 import WebFont from 'webfontloader'
 WebFont.load({
 	google: {
-		families: ['Noto Sans SC']
+		families: ['Noto Sans SC:500,900']
 	}
 })
 

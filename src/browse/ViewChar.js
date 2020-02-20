@@ -45,6 +45,7 @@ const ViewChar = props => {
 					<Text
 						size='1.2'
 						color={toneColors[charInfo.tone]}
+						bold={true}
 						>
 						{charInfo.sound}
 					</Text>

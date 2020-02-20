@@ -127,7 +127,7 @@ const Browse = props => {
 						ref={$List}
 						height={window.innerHeight} // must be a number, can't rely on flex
 						itemCount={DB.itemList.length}
-						itemSize={60} // another number
+						itemSize={72} // another number
 						width='100%'
 						>
 						{ ({index, style}) =>

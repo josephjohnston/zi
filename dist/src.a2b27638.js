@@ -36574,7 +36574,7 @@ function _templateObject3() {
 }
 
 function _templateObject2() {
-  var data = _taggedTemplateLiteral(["\n\tfont-size: ", "em;\n\tfont-weight: 900;\n\tword-break: break-all;\n\tcolor: ", ";\n"]);
+  var data = _taggedTemplateLiteral(["\n\tfont-size: ", "em;\n\tfont-family: Noto Sans SC;\n\tfont-weight: ", ";\n\tword-break: break-all;\n\tcolor: ", ";\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -36613,6 +36613,8 @@ exports.Container = Container;
 
 var Text = _styledComponents.default.p(_templateObject2(), function (props) {
   return props.size || 1;
+}, function (props) {
+  return props.bold ? 'bold' : 'normal';
 }, function (props) {
   return props.color || colors.text;
 });
@@ -43369,6 +43371,7 @@ var ListItem = function ListItem(props) {
     className: "pointer-on-hover"
   }, _react.default.createElement(_components.Text, {
     size: "1.2",
+    bold: true,
     color: _components.toneColors[itemInfo.tone]
   }, itemInfo.sound)), _react.default.createElement(_components.Block, {
     className: "pointer-on-hover"
@@ -46334,7 +46337,8 @@ var ViewChar = function ViewChar(props) {
     char: charInfo.char
   })), _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Text, {
     size: "1.2",
-    color: _components.toneColors[charInfo.tone]
+    color: _components.toneColors[charInfo.tone],
+    bold: true
   }, charInfo.sound)), _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Text, null, charInfo.en))), _react.default.createElement(_components.ViewBar, null, _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Text, null, charInfo.subchars.length > 0 ? 'Sub-characters' : 'No sub-characters'), _react.default.createElement(_components.Bar, null, charInfo.subchars.map(makeSubChar))), _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Text, null, charInfo.primitive === '' ? 'No primitive meaning' : 'Primitive meanings: ', charInfo.primitive))));
 };
 
@@ -46381,7 +46385,7 @@ var ViewRad = function ViewRad(props) {
 
   return _react.default.createElement(_react.default.Fragment, null, _react.default.createElement(_components.ViewBar, null, _react.default.createElement(_components.Block, null, _react.default.createElement(_CharIllustration.default, {
     char: radInfo.rad
-  })), _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Text, null, radInfo.en))), _react.default.createElement(_components.ViewBar, null, _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Text, null, radInfo.subchars.length > 0 ? 'sub-characters: ' : 'no sub-characters'), _react.default.createElement(_components.Bar, null, radInfo.subchars.map(makeSubChar))), _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Text, null, radInfo.other !== '' ? 'primitive meanings: ' : 'no comments', radInfo.other))));
+  })), _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Text, null, radInfo.en))), _react.default.createElement(_components.ViewBar, null, _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Text, null, radInfo.subchars.length > 0 ? 'Sub-characters: ' : 'No sub-characters'), _react.default.createElement(_components.Bar, null, radInfo.subchars.map(makeSubChar))), _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Text, null, radInfo.other !== '' ? 'Primitive meanings: ' : 'No comments', radInfo.other))));
 };
 
 var _default = ViewRad;
@@ -46623,7 +46627,7 @@ var Browse = function Browse(props) {
       height: window.innerHeight // must be a number, can't rely on flex
       ,
       itemCount: _DB.default.itemList.length,
-      itemSize: 60 // another number
+      itemSize: 72 // another number
       ,
       width: "100%"
     }, function (_ref) {
@@ -53500,7 +53504,7 @@ _fontawesomeSvgCore.library.add(_freeSolidSvgIcons.faChevronLeft, _freeSolidSvgI
 
 _webfontloader.default.load({
   google: {
-    families: ['Noto Sans SC']
+    families: ['Noto Sans SC:500,900']
   }
 });
 

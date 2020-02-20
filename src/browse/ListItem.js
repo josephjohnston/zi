@@ -39,6 +39,7 @@ const ListItem = props => {
 					>
 					<Text
 						size='1.2'
+						bold={true}
 						color={toneColors[itemInfo.tone]}
 						>
 						{ itemInfo.sound }
