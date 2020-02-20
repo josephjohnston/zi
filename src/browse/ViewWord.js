@@ -36,30 +36,34 @@ const ListChar = props => {
         </SubCharButton>
 
     return (
-        <ViewBar>
-            <Block>
-                <Text
-                    size='1.8'
-                    >
-                 { word }
-                </Text>
-            </Block>
-            <Block>
-                <Text>
-                    { wordInfo.en }
-                </Text>
-            </Block>
-            <Block>
-                <Text>
-                    Characters
-                </Text>
-                <Bar>
-                    { wordInfo.charIds 
-                        .map(makeChar)
-                    }
-                </Bar>
-            </Block>
-        </ViewBar>
+        <>
+            <ViewBar>
+                <Block>
+                    <Text
+                        size='1.8'
+                        >
+                     { word }
+                    </Text>
+                </Block>
+                <Block>
+                    <Text>
+                        { wordInfo.en }
+                    </Text>
+                </Block>
+            </ViewBar>
+            <ViewBar>
+                <Block>
+                    <Text>
+                        Characters
+                    </Text>
+                    <Bar>
+                        { wordInfo.charIds 
+                            .map(makeChar)
+                        }
+                    </Bar>
+                </Block>
+            </ViewBar>
+        </>
     )
 }
 

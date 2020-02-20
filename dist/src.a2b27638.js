@@ -46440,9 +46440,9 @@ var ListChar = function ListChar(props) {
     }, _DB.default.infoMap[charId].char));
   };
 
-  return _react.default.createElement(_components.ViewBar, null, _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Text, {
+  return _react.default.createElement(_react.default.Fragment, null, _react.default.createElement(_components.ViewBar, null, _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Text, {
     size: "1.8"
-  }, word)), _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Text, null, wordInfo.en)), _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Text, null, "Characters"), _react.default.createElement(_components.Bar, null, wordInfo.charIds.map(makeChar))));
+  }, word)), _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Text, null, wordInfo.en))), _react.default.createElement(_components.ViewBar, null, _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Text, null, "Characters"), _react.default.createElement(_components.Bar, null, wordInfo.charIds.map(makeChar)))));
 };
 
 var _default = ListChar;
@@ -46623,7 +46623,7 @@ var Browse = function Browse(props) {
       height: window.innerHeight // must be a number, can't rely on flex
       ,
       itemCount: _DB.default.itemList.length,
-      itemSize: 100 // another number
+      itemSize: 60 // another number
       ,
       width: "100%"
     }, function (_ref) {
@@ -53553,7 +53553,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58683" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58789" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
