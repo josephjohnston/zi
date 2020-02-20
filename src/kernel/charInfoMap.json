@@ -419,16 +419,16 @@
 		"char": "贴",
 		"subchars": [52,44],
 		"tone": 1,
-		"sound": "paste (verb)",
-		"en": "tie",
+		"sound": "tie",
+		"en": "to paste",
 		"primitive": ""
 	},
 	"54": {
 		"char": "贞",
 		"subchars": [43,52],
 		"tone": 1,
-		"sound": "chaste",
-		"en": "zhen",
+		"sound": "zhen",
+		"en": "chaste",
 		"primitive": ""
 	},
 	"55": {
@@ -661,7 +661,7 @@
 		"tone": 1,
 		"sound": "dao",
 		"en": "sword",
-		"primitive": "dagger when to the right like (); saber when to the left like ()"
+		"primitive": "dagger or saber when to the left or right"
 	},
 	"84": {
 		"char": "刃",
@@ -751,16 +751,488 @@
 		"en": "crest",
 		"primitive": ""
 	},
-	"110": {
-		"char": "科",
+	"95": {
+		"char": "乙",
 		"subchars": [],
+		"tone": 3,
+		"sound": "yi",
+		"en": "second",
+		"primitive": "hook, fishhook"
+	},
+	"96": {
+		"char": "飞",
+		"subchars": [95,-1],
+		"tone": 1,
+		"sound": "fei",
+		"en": "to fly",
+		"primitive": ""
+	},
+	"97": {
+		"char": "子",
+		"subchars": [],
+		"tone": 3,
+		"sound": "zi",
+		"en": "child",
+		"primitive": "child"
+	},
+	"98": {
+		"char": "孔",
+		"subchars": [97,95],
+		"tone": 3,
+		"sound": "kong",
+		"en": "cavity",
+		"primitive": ""
+	},
+	"99": {
+		"char": "吼",
+		"subchars": [11,98],
+		"tone": 3,
+		"sound": "hou",
+		"en": "to roar",
+		"primitive": ""
+	},
+	"100": {
+		"char": "乱",
+		"subchars": [40,95],
+		"tone": 4,
+		"sound": "luan",
+		"en": "chaos",
+		"primitive": ""
+	},
+	"101": {
+		"char": "了",
+		"subchars": [],
+		"tone": 0,
+		"sound": "le",
+		"en": "(-ed)",
+		"primitive": ""
+	},
+	"102": {
+		"char": "女",
+		"subchars": [],
+		"tone": 3,
+		"sound": "nü",
+		"en": "woman",
+		"primitive": "woman"
+	},
+	"103": {
+		"char": "好",
+		"subchars": [102,97],
+		"tone": 3,
+		"sound": "hao",
+		"en": "good",
+		"primitive": ""
+	},
+	"104": {
+		"char": "如",
+		"subchars": [102,11],
 		"tone": 2,
-		"sound": "ping",
-		"en": "word",
+		"sound": "ru",
+		"en": "be like",
+		"primitive": ""
+	},
+	"105": {
+		"char": "母",
+		"subchars": [-1],
+		"tone": 3,
+		"sound": "mu",
+		"en": "mother",
+		"primitive": "breasts"
+	},
+	"106": {
+		"char": "贯",
+		"subchars": [105,52],
+		"tone": 4,
+		"sound": "guan",
+		"en": "pierce",
+		"primitive": ""
+	},
+	"107": {
+		"char": "兄",
+		"subchars": [11,56],
+		"tone": 1,
+		"sound": "xiong",
+		"en": "elder brother",
+		"primitive": "teenager"
+	},
+	"108": {
+		"char": "克",
+		"subchars": [10,107],
+		"tone": 4,
+		"sound": "ke",
+		"en": "to overcome",
+		"primitive": ""
+	},
+	"109": {
+		"char": "小",
+		"subchars": [-1],
+		"tone": 3,
+		"sound": "xiao",
+		"en": "small",
+		"primitive": "small"
+	},
+	"110": {
+		"char": "少",
+		"subchars": [-1],
+		"tone": 3,
+		"sound": "xiao",
+		"en": "few",
+		"primitive": "few"
+	},
+	"111": {
+		"char": "吵",
+		"subchars": [11,110],
+		"tone": 3,
+		"sound": "chao",
+		"en": "noisy",
+		"primitive": ""
+	},
+	"112": {
+		"char": "孙",
+		"subchars": [97,109],
+		"tone": 1,
+		"sound": "sun",
+		"en": "grandchild",
+		"primitive": ""
+	},
+	"113": {
+		"char": "大",
+		"subchars": [],
+		"tone": 4,
+		"sound": "da",
+		"en": "large",
+		"primitive": "large dog, St. Bernard dog"
+	},
+	"114": {
+		"char": "尖",
+		"subchars": [109,113],
+		"tone": 1,
+		"sound": "jian",
+		"en": "tip",
+		"primitive": ""
+	},
+	"115": {
+		"char": "夕",
+		"subchars": [],
+		"tone": 1,
+		"sound": "xi",
+		"en": "evening",
+		"primitive": ""
+	},
+	"116": {
+		"char": "多",
+		"subchars": [115],
+		"tone": 1,
+		"sound": "duo",
+		"en": "many",
+		"primitive": ""
+	},
+	"117": {
+		"char": "够",
+		"subchars": [67,116],
+		"tone": 4,
+		"sound": "gou",
+		"en": "enough",
+		"primitive": ""
+	},
+	"118": {
+		"char": "外",
+		"subchars": [115,43],
+		"tone": 4,
+		"sound": "wai",
+		"en": "outside",
+		"primitive": ""
+	},
+	"119": {
+		"char": "名",
+		"subchars": [115,11],
+		"tone": 2,
+		"sound": "ming",
+		"en": "name",
+		"primitive": ""
+	},
+	"120": {
+		"char": "罗",
+		"subchars": [15,115],
+		"tone": 2,
+		"sound": "luo",
+		"en": "silk gauze",
+		"primitive": ""
+	},
+	"121": {
+		"char": "厂",
+		"subchars": [],
+		"tone": 3,
+		"sound": "chang",
+		"en": "factory",
+		"primitive": "cliff"
+	},
+	"122": {
+		"char": "厅",
+		"subchars": [121,90],
+		"tone": 1,
+		"sound": "ting",
+		"en": "hall",
+		"primitive": ""
+	},
+	"123": {
+		"char": "厉",
+		"subchars": [121,65],
+		"tone": 4,
+		"sound": "li",
+		"en": "stern",
+		"primitive": ""
+	},
+	"124": {
+		"char": "厚",
+		"subchars": [121,12,97],
+		"tone": 4,
+		"sound": "hou",
+		"en": "thick",
+		"primitive": ""
+	},
+	"125": {
+		"char": "石",
+		"subchars": [121,11],
+		"tone": 2,
+		"sound": "shi",
+		"en": "stone",
+		"primitive": "pebbles, rocks"
+	},
+	"126": {
+		"char": "砂",
+		"subchars": [125,110],
+		"tone": 1,
+		"sound": "sha",
+		"en": "gravel",
+		"primitive": ""
+	},
+	"127": {
+		"char": "妙",
+		"subchars": [102,110],
+		"tone": 4,
+		"sound": "miao",
+		"en": "wonderful",
+		"primitive": ""
+	},
+	"128": {
+		"char": "肖",
+		"subchars": [109,13],
+		"tone": 4,
+		"sound": "xiao",
+		"en": "resemble",
+		"primitive": "sparks, candle"
+	},
+	"129": {
+		"char": "削",
+		"subchars": [128,83],
+		"tone": 1,
+		"sound": "xue/iao",
+		"en": "to peel",
+		"primitive": ""
+	},
+	"130": {
+		"char": "光",
+		"subchars": [109,56],
+		"tone": 1,
+		"sound": "guang",
+		"en": "ray",
+		"primitive": ""
+	},
+	"131": {
+		"char": "太",
+		"subchars": [113,-1],
+		"tone": 4,
+		"sound": "tai",
+		"en": "overly",
+		"primitive": ""
+	},
+	"132": {
+		"char": "省",
+		"subchars": [110,15],
+		"tone": 3,
+		"sound": "sheng",
+		"en": "economize",
+		"primitive": ""
+	},
+	"133": {
+		"char": "奇",
+		"subchars": [113,90,11],
+		"tone": 2,
+		"sound": "qi",
+		"en": "strange",
+		"primitive": ""
+	},
+	"134": {
+		"char": "川",
+		"subchars": [],
+		"tone": 1,
+		"sound": "chuan",
+		"en": "stream",
+		"primitive": "flood, like 巛"
+	},
+	"135": {
+		"char": "州",
+		"subchars": [-1,134],
+		"tone": 1,
+		"sound": "zhou",
+		"en": "state",
+		"primitive": ""
+	},
+	"136": {
+		"char": "顺",
+		"subchars": [134,60],
+		"tone": 4,
+		"sound": "shun",
+		"en": "obey",
+		"primitive": ""
+	},
+	"137": {
+		"char": "水",
+		"subchars": [],
+		"tone": 3,
+		"sound": "shui",
+		"en": "water",
+		"primitive": "drops to the left, or snowflake like _"
+	},
+	"138": {
+		"char": "永",
+		"subchars": [-1,137],
+		"tone": 3,
+		"sound": "yong",
+		"en": "eternity",
+		"primitive": ""
+	},
+	"139": {
+		"char": "脉",
+		"subchars": [13,138],
+		"tone": 4,
+		"sound": "mai",
+		"en": "blood vessels",
+		"primitive": ""
+	},
+	"140": {
+		"char": "求",
+		"subchars": [137,-1],
+		"tone": 2,
+		"sound": "qiu",
+		"en": "to request",
+		"primitive": ""
+	},
+	"141": {
+		"char": "泉",
+		"subchars": [34,137],
+		"tone": 2,
+		"sound": "quan",
+		"en": "spring",
+		"primitive": "spring (bottom changes)"
+	},
+	"142": {
+		"char": "原",
+		"subchars": [121,141],
+		"tone": 2,
+		"sound": "yuan",
+		"en": "flatlands",
+		"primitive": ""
+	},
+	"143": {
+		"char": "泳",
+		"subchars": [137,138],
+		"tone": 3,
+		"sound": "yong",
+		"en": "swim",
+		"primitive": ""
+	},
+	"144": {
+		"char": "洲",
+		"subchars": [137,135],
+		"tone": 1,
+		"sound": "zhou",
+		"en": "continent",
+		"primitive": ""
+	},
+	"145": {
+		"char": "沼",
+		"subchars": [137,86],
+		"tone": 3,
+		"sound": "zhao",
+		"en": "marsh",
+		"primitive": ""
+	},
+	"146": {
+		"char": "沙",
+		"subchars": [137,110],
+		"tone": 1,
+		"sound": "sha",
+		"en": "sand",
+		"primitive": ""
+	},
+	"147": {
+		"char": "江",
+		"subchars": [137,76],
+		"tone": 1,
+		"sound": "jiang",
+		"en": "Yangtze",
+		"primitive": ""
+	},
+	"148": {
+		"char": "汁",
+		"subchars": [137,10],
+		"tone": 1,
+		"sound": "zhi",
+		"en": "juice",
+		"primitive": ""
+	},
+	"149": {
+		"char": "潮",
+		"subchars": [137,49],
+		"tone": 2,
+		"sound": "chao",
+		"en": "tide",
+		"primitive": ""
+	},
+	"150": {
+		"char": "源",
+		"subchars": [137,142],
+		"tone": 2,
+		"sound": "yuan",
+		"en": "source",
+		"primitive": ""
+	},
+	"151": {
+		"char": "活",
+		"subchars": [137,40],
+		"tone": 2,
+		"sound": "huo",
+		"en": "lively",
+		"primitive": ""
+	},
+	"152": {
+		"char": "消",
+		"subchars": [137,128],
+		"tone": 1,
+		"sound": "xiao",
+		"en": "extinguish",
+		"primitive": ""
+	},
+	"153": {
+		"char": "河",
+		"subchars": [137,92],
+		"tone": 2,
+		"sound": "he",
+		"en": "river",
+		"primitive": ""
+	},
+	"154": {
+		"char": "鱼",
+		"subchars": [-5,14,1],
+		"tone": 2,
+		"sound": "yu",
+		"en": "fish",
 		"primitive": ""
 	}
 }
-	// ,
+
 	// "": {
 	// 	"char": "",
 	// 	"subchars": [],
@@ -768,4 +1240,4 @@
 	// 	"sound": "",
 	// 	"en": "",
 	// 	"primitive": ""
-	// }
+	// },

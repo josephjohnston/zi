@@ -4,3 +4,29 @@
         "en": "backup"
     },
 }
+
+
+    // "1391": {
+    //  "char": "司",
+    //  "subchars": [-10,1,11],
+    //  "tone": 1,
+    //  "sound": "si",
+    //  "en": "take change of",
+    //  "primitive": ""
+    // },
+    // "1392": {
+    //  "char": "词",
+    //  "subchars": [,1391],
+    //  "tone": 2,
+    //  "sound": "ci",
+    //  "en": "word",
+    //  "primitive": ""
+    // },
+
+    
+    // "-10": {
+    //  "rad": "𠃌",
+    //  "subchars": [],
+    //  "en": "clothes hanger",
+    //  "other": ""
+    // },
