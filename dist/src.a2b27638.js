@@ -43974,24 +43974,62 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
 var ItemBar = _styledComponents.default.div(_templateObject());
 
 var ListItem = function ListItem(props) {
-  var itemInfo = _DB.default.infoMap[props.id];
-  var IS_WORD = isNaN(props.id);
-  return _react.default.createElement(ItemBar, {
-    onClick: props.viewItem,
-    style: props.style
-  }, _react.default.createElement(_components.Block, {
-    className: "pointer-on-hover"
-  }, _react.default.createElement(_components.Text, {
-    size: "1.4"
-  }, IS_WORD ? props.id : itemInfo.char)), IS_WORD ? null : _react.default.createElement(_components.Block, {
-    className: "pointer-on-hover"
-  }, _react.default.createElement(_components.Text, {
-    size: "1.2",
-    bold: true,
-    color: _components.toneColors[itemInfo.tone]
-  }, itemInfo.sound)), _react.default.createElement(_components.Block, {
-    className: "pointer-on-hover"
-  }, _react.default.createElement(_components.Text, null, IS_WORD ? itemInfo.en : itemInfo.en)));
+  // const itemInfo = DB.infoMap[props.id]
+  // const IS_WORD = isNaN(props.id)
+  var word = props.id;
+  var wordInfo = _DB.default.infoMap[word];
+
+  var makeChar = function makeChar(charId, i) {
+    return _react.default.createElement(_components.SubCharButton, {
+      key: i,
+      onClick: function onClick() {
+        return props.viewItem(charId);
+      },
+      className: "pointer-on-hover"
+    }, _react.default.createElement(_components.Text, {
+      size: "1.2"
+    }, _DB.default.infoMap[charId].char));
+  };
+
+  return _react.default.createElement(_components.ViewBar, null, _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Text, {
+    size: "1.8"
+  }, word)), _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Bar, null, wordInfo.charIds.map(makeChar))), _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Text, null, wordInfo.en))); // return (
+  // 	<ItemBar
+  // 		onClick={props.viewItem}
+  // 		style={props.style}
+  // 		>
+  // 		<Block
+  // 			className='pointer-on-hover'
+  // 			>
+  // 			<Text
+  // 				size='1.4'
+  // 				>
+  // 				{ IS_WORD ? props.id : itemInfo.char }
+  // 			</Text>
+  // 		</Block>
+  // 		{ IS_WORD
+  // 			? null
+  // 			: <Block
+  // 				className='pointer-on-hover'
+  // 				>
+  // 				<Text
+  // 					size='1.2'
+  // 					bold={true}
+  // 					color={toneColors[itemInfo.tone]}
+  // 					>
+  // 					{ itemInfo.sound }
+  // 				</Text>
+  // 			</Block>
+  // 		}
+  // 		<Block
+  // 			className='pointer-on-hover'
+  // 			>
+  // 			<Text>
+  // 				{IS_WORD ? itemInfo.en : itemInfo.en}
+  // 			</Text>
+  // 		</Block>
+  // 	</ItemBar>
+  // )
 };
 
 var _default = ListItem;
@@ -47201,7 +47239,7 @@ var Browse = function Browse(props) {
     });
   };
 
-  var _viewItem = function viewItem(itemId) {
+  var viewItem = function viewItem(itemId) {
     var newPast = [].concat(_toConsumableArray(history.past), [history.present]);
     var newPresent = itemId;
     var newFuture = [];
@@ -47252,16 +47290,15 @@ var Browse = function Browse(props) {
       return _react.default.createElement(_ListItem.default, {
         style: style,
         id: _DB.default.itemList[index],
-        viewItem: function viewItem() {
-          return _viewItem(_DB.default.itemList[index]);
-        }
+        viewItem: viewItem //() => viewItem(DB.itemList[index])}
+
       });
     }) : isNaN(history.present) ? _react.default.createElement(_ViewWord.default, {
       id: history.present,
-      viewItem: _viewItem
+      viewItem: viewItem
     }) : _react.default.createElement(_ViewChar.default, {
       id: history.present,
-      viewItem: _viewItem
+      viewItem: viewItem
     }) // : history.present > 0 ?
     // <ViewChar
     // 	id={history.present}

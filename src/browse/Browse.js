@@ -134,7 +134,7 @@ const Browse = props => {
 								<ListItem
 									style={style}
 									id={DB.itemList[index]}
-									viewItem={() => viewItem(DB.itemList[index])}
+									viewItem={viewItem}//() => viewItem(DB.itemList[index])}
 								/>
 						}
 					</List>
