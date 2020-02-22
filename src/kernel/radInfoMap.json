@@ -52,8 +52,31 @@
 		"subchars": [1,11,14],
 		"en": "wealth",
 		"other": ""
+	},
+	"-10": {
+		"rad": "节",
+		"subchars": [],
+		"en": "chop",
+		"other": "[without the flowers]"
+	},
+	"-11": {
+		"rad": "亽",
+		"subchars": [],
+		"en": "meeting",
+		"other": ""
+	},
+	"-12": {
+		"rad": "亠",
+		"subchars": [-1,1],
+		"en": "top hat",
+		"other": ""
+	},
+	"-13": {
+		"rad": "亢",
+		"subchars": [-12,57],
+		"en": "whirlwind",
+		"other": ""
 	}
-
 }
 	// "": {
 	// 	"rad": "",

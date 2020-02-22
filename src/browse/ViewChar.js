@@ -56,7 +56,7 @@ const ViewChar = props => {
 					</Text>
 				</Block>
 			</ViewBar>
-			<ViewBar>
+			{/*<ViewBar>
 				<Block>
 					<Text>
 						{ charInfo.subchars.length > 0
@@ -81,7 +81,7 @@ const ViewChar = props => {
 						{charInfo.primitive}
 					</Text>
 				</Block>
-			</ViewBar>
+			</ViewBar>*/}
 		</>
 	)
 }

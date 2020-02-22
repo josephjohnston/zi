@@ -396,7 +396,7 @@
 		"subchars": [11,49],
 		"tone": 3,
 		"sound": "chao",
-		"en": "ridicule (verb)",
+		"en": "to ridicule",
 		"primitive": ""
 	},
 	"51": {
@@ -508,7 +508,7 @@
 		"subchars": [-5,52],
 		"tone": 4,
 		"sound": "fu",
-		"en": "defeated (adjective)",
+		"en": "defeated",
 		"primitive": ""
 	},
 	"65": {
@@ -524,7 +524,7 @@
 		"subchars": [-5,2],
 		"tone": 2,
 		"sound": "yun",
-		"en": "uniform (adjective)",
+		"en": "uniform",
 		"primitive": ""
 	},
 	"67": {
@@ -532,7 +532,7 @@
 		"subchars": [-5,11],
 		"tone": 4,
 		"sound": "ju",
-		"en": "sentence (noun)",
+		"en": "sentence",
 		"primitive": ""
 	},
 	"68": {
@@ -604,7 +604,7 @@
 		"subchars": [],
 		"tone": 1,
 		"sound": "gong",
-		"en": "work (noun)",
+		"en": "work",
 		"primitive": "I-beam"
 	},
 	"77": {
@@ -636,7 +636,7 @@
 		"subchars": [52,79],
 		"tone": 4,
 		"sound": "hui",
-		"en": "bribe (noun)",
+		"en": "bribe",
 		"primitive": ""
 	},
 	"81": {
@@ -676,7 +676,7 @@
 		"subchars": [7,83],
 		"tone": 4,
 		"sound": "qie",
-		"en": "cut (verb)",
+		"en": "to cut",
 		"primitive": ""
 	},
 	"86": {
@@ -700,7 +700,7 @@
 		"subchars": [52,83],
 		"tone": 2,
 		"sound": "ze",
-		"en": "rule (noun)",
+		"en": "rule",
 		"primitive": ""
 	},
 	"89": {
@@ -724,7 +724,7 @@
 		"subchars": [11,90],
 		"tone": 1,
 		"sound": "ding",
-		"en": "sting (verb)",
+		"en": "to sting",
 		"primitive": ""
 	},
 	"92": {
@@ -1230,14 +1230,131 @@
 		"sound": "yu",
 		"en": "fish",
 		"primitive": ""
+	},
+	"155": {
+		"char": "渔",
+		"subchars": [137,154],
+		"tone": 2,
+		"sound": "yu",
+		"en": "fishing",
+		"primitive": ""
+	},
+	"156": {
+		"char": "湖",
+		"subchars": [137,17],
+		"tone": 2,
+		"sound": "hu",
+		"en": "lake",
+		"primitive": ""
+	},
+	"157": {
+		"char": "测",
+		"subchars": [137,88],
+		"tone": 4,
+		"sound": "ce",
+		"en": "to fathom",
+		"primitive": ""
+	},
+	"158": {
+		"char": "土",
+		"subchars": [10,1],
+		"tone": 3,
+		"sound": "tu",
+		"en": "soil",
+		"primitive": "dirt, land"
+	},
+	"159": {
+		"char": "均",
+		"subchars": [158,66],
+		"tone": 1,
+		"sound": "jun",
+		"en": "equal",
+		"primitive": ""
+	},
+	"160": {
+		"char": "肚",
+		"subchars": [13,158],
+		"tone": 4,
+		"sound": "du",
+		"en": "belly",
+		"primitive": ""
+	},
+	"346": {
+		"char": "言",
+		"subchars": [-12,1,11],
+		"tone": 2,
+		"sound": "yan",
+		"en": "say",
+		"primitive": "words (讠)"
+	},
+	"353": {
+		"char": "识",
+		"subchars": [346,51],
+		"tone": 2,
+		"sound": "shi",
+		"en": "knowledge",
+		"primitive": ""
+	},
+	"388": {
+		"char": "证",
+		"tone": 4,
+		"sound": "zheng",
+		"en": "evidence"
+	},
+	"425": {
+		"char": "雨",
+		"subchars": [],
+		"tone": 3,
+		"sound": "yu",
+		"en": "rain",
+		"primitive": "rain, weather"
+	},
+	"436": {
+		"char": "天",
+		"subchars": [1,113],
+		"tone": 1,
+		"sound": "tian",
+		"en": "heavens",
+		"primitive": "heaven"
+	},
+	"998": {
+		"char": "矢",
+		"subchars": [-1,436],
+		"tone": 3,
+		"sound": "shi",
+		"en": "dart",
+		"primitive": "dart"
+	},
+	"1000": {
+		"char": "知",
+		"subchars": [998,11],
+		"tone": 1,
+		"sound": "zhi",
+		"en": "know",
+		"primitive": ""
+	},
+	"1113": {
+		"char": "令",
+		"subchars": [-11,-10],
+		"tone": 4,
+		"sound": "ling",
+		"en": "orders",
+		"primitive": ""
+	},
+	"1115": {
+		"char": "零",
+		"subchars": [425,1113],
+		"tone": 2,
+		"sound": "ling",
+		"en": "zero",
+		"primitive": ""
 	}
 }
 
+
 	// "": {
 	// 	"char": "",
-	// 	"subchars": [],
 	// 	"tone": 0,
 	// 	"sound": "",
-	// 	"en": "",
-	// 	"primitive": ""
-	// },
+	// 	"en": ""
+	// }

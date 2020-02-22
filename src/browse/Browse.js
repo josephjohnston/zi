@@ -143,17 +143,22 @@ const Browse = props => {
 						id={history.present}
 						viewItem={viewItem}
 					/>
-					: history.present > 0 ?
+					:
 					<ViewChar
 						id={history.present}
 						viewItem={viewItem}
 					/>
-					: history.present < 0 ?
-					<ViewRad
-						id={history.present}
-						viewItem={viewItem}
-					/>
-					: null
+					// : history.present > 0 ?
+					// <ViewChar
+					// 	id={history.present}
+					// 	viewItem={viewItem}
+					// />
+					// : history.present < 0 ?
+					// <ViewRad
+					// 	id={history.present}
+					// 	viewItem={viewItem}
+					// />
+					// : null
 				}
 			</ContentContainer>
 		</Container>

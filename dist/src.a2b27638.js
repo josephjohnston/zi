@@ -37033,7 +37033,7 @@ module.exports = {
     "subchars": [11, 49],
     "tone": 3,
     "sound": "chao",
-    "en": "ridicule (verb)",
+    "en": "to ridicule",
     "primitive": ""
   },
   "51": {
@@ -37145,7 +37145,7 @@ module.exports = {
     "subchars": [-5, 52],
     "tone": 4,
     "sound": "fu",
-    "en": "defeated (adjective)",
+    "en": "defeated",
     "primitive": ""
   },
   "65": {
@@ -37161,7 +37161,7 @@ module.exports = {
     "subchars": [-5, 2],
     "tone": 2,
     "sound": "yun",
-    "en": "uniform (adjective)",
+    "en": "uniform",
     "primitive": ""
   },
   "67": {
@@ -37169,7 +37169,7 @@ module.exports = {
     "subchars": [-5, 11],
     "tone": 4,
     "sound": "ju",
-    "en": "sentence (noun)",
+    "en": "sentence",
     "primitive": ""
   },
   "68": {
@@ -37241,7 +37241,7 @@ module.exports = {
     "subchars": [],
     "tone": 1,
     "sound": "gong",
-    "en": "work (noun)",
+    "en": "work",
     "primitive": "I-beam"
   },
   "77": {
@@ -37273,7 +37273,7 @@ module.exports = {
     "subchars": [52, 79],
     "tone": 4,
     "sound": "hui",
-    "en": "bribe (noun)",
+    "en": "bribe",
     "primitive": ""
   },
   "81": {
@@ -37313,7 +37313,7 @@ module.exports = {
     "subchars": [7, 83],
     "tone": 4,
     "sound": "qie",
-    "en": "cut (verb)",
+    "en": "to cut",
     "primitive": ""
   },
   "86": {
@@ -37337,7 +37337,7 @@ module.exports = {
     "subchars": [52, 83],
     "tone": 2,
     "sound": "ze",
-    "en": "rule (noun)",
+    "en": "rule",
     "primitive": ""
   },
   "89": {
@@ -37361,7 +37361,7 @@ module.exports = {
     "subchars": [11, 90],
     "tone": 1,
     "sound": "ding",
-    "en": "sting (verb)",
+    "en": "to sting",
     "primitive": ""
   },
   "92": {
@@ -37867,15 +37867,131 @@ module.exports = {
     "sound": "yu",
     "en": "fish",
     "primitive": ""
+  },
+  "155": {
+    "char": "渔",
+    "subchars": [137, 154],
+    "tone": 2,
+    "sound": "yu",
+    "en": "fishing",
+    "primitive": ""
+  },
+  "156": {
+    "char": "湖",
+    "subchars": [137, 17],
+    "tone": 2,
+    "sound": "hu",
+    "en": "lake",
+    "primitive": ""
+  },
+  "157": {
+    "char": "测",
+    "subchars": [137, 88],
+    "tone": 4,
+    "sound": "ce",
+    "en": "to fathom",
+    "primitive": ""
+  },
+  "158": {
+    "char": "土",
+    "subchars": [10, 1],
+    "tone": 3,
+    "sound": "tu",
+    "en": "soil",
+    "primitive": "dirt, land"
+  },
+  "159": {
+    "char": "均",
+    "subchars": [158, 66],
+    "tone": 1,
+    "sound": "jun",
+    "en": "equal",
+    "primitive": ""
+  },
+  "160": {
+    "char": "肚",
+    "subchars": [13, 158],
+    "tone": 4,
+    "sound": "du",
+    "en": "belly",
+    "primitive": ""
+  },
+  "346": {
+    "char": "言",
+    "subchars": [-12, 1, 11],
+    "tone": 2,
+    "sound": "yan",
+    "en": "say",
+    "primitive": "words (讠)"
+  },
+  "353": {
+    "char": "识",
+    "subchars": [346, 51],
+    "tone": 2,
+    "sound": "shi",
+    "en": "knowledge",
+    "primitive": ""
+  },
+  "388": {
+    "char": "证",
+    "tone": 4,
+    "sound": "zheng",
+    "en": "evidence"
+  },
+  "425": {
+    "char": "雨",
+    "subchars": [],
+    "tone": 3,
+    "sound": "yu",
+    "en": "rain",
+    "primitive": "rain, weather"
+  },
+  "436": {
+    "char": "天",
+    "subchars": [1, 113],
+    "tone": 1,
+    "sound": "tian",
+    "en": "heavens",
+    "primitive": "heaven"
+  },
+  "998": {
+    "char": "矢",
+    "subchars": [-1, 436],
+    "tone": 3,
+    "sound": "shi",
+    "en": "dart",
+    "primitive": "dart"
+  },
+  "1000": {
+    "char": "知",
+    "subchars": [998, 11],
+    "tone": 1,
+    "sound": "zhi",
+    "en": "know",
+    "primitive": ""
+  },
+  "1113": {
+    "char": "令",
+    "subchars": [-11, -10],
+    "tone": 4,
+    "sound": "ling",
+    "en": "orders",
+    "primitive": ""
+  },
+  "1115": {
+    "char": "零",
+    "subchars": [425, 1113],
+    "tone": 2,
+    "sound": "ling",
+    "en": "zero",
+    "primitive": ""
   }
 }; // "": {
 // 	"char": "",
-// 	"subchars": [],
 // 	"tone": 0,
 // 	"sound": "",
-// 	"en": "",
-// 	"primitive": ""
-// },;
+// 	"en": ""
+// };
 },{}],"src/kernel/radInfoMap.json":[function(require,module,exports) {
 module.exports = {
   "-1": {
@@ -37931,6 +38047,30 @@ module.exports = {
     "subchars": [1, 11, 14],
     "en": "wealth",
     "other": ""
+  },
+  "-10": {
+    "rad": "节",
+    "subchars": [],
+    "en": "chop",
+    "other": "[without the flowers]"
+  },
+  "-11": {
+    "rad": "亽",
+    "subchars": [],
+    "en": "meeting",
+    "other": ""
+  },
+  "-12": {
+    "rad": "亠",
+    "subchars": [-1, 1],
+    "en": "top hat",
+    "other": ""
+  },
+  "-13": {
+    "rad": "亢",
+    "subchars": [-12, 57],
+    "en": "whirlwind",
+    "other": ""
   }
 }; // "": {
 // 	"rad": "",
@@ -37940,31 +38080,17 @@ module.exports = {
 // },;
 },{}],"src/kernel/wordInfoMap.json":[function(require,module,exports) {
 module.exports = {
-  "备用": {
-    "charIds": [1, 2, 3],
-    "en": "backup"
+  "知识": {
+    "charIds": [1000, 353],
+    "en": "knowledge"
+  },
+  "证明": {
+    "charIds": [388, 21],
+    "en": "proof"
   }
-}; // "1391": {
-//  "char": "司",
-//  "subchars": [-10,1,11],
-//  "tone": 1,
-//  "sound": "si",
-//  "en": "take change of",
-//  "primitive": ""
-// },
-// "1392": {
-//  "char": "词",
-//  "subchars": [,1391],
-//  "tone": 2,
-//  "sound": "ci",
-//  "en": "word",
-//  "primitive": ""
-// },
-// "-10": {
-//  "rad": "𠃌",
-//  "subchars": [],
-//  "en": "clothes hanger",
-//  "other": ""
+}; // "": {
+//     "charIds": [],
+//     "en": ""
 // },;
 },{}],"src/kernel/DB.js":[function(require,module,exports) {
 "use strict";
@@ -38078,7 +38204,7 @@ var subscribeToDataLoaded = function subscribeToDataLoaded(cb) {
     DB.infoMap[word] = _wordInfoMap.default[word];
   }
 
-  DB.itemList = shuffleArray([].concat(_toConsumableArray(Object.keys(_charInfoMap.default)), _toConsumableArray(Object.keys(_wordInfoMap.default))));
+  DB.itemList = shuffleArray(_toConsumableArray(Object.keys(_wordInfoMap.default)));
   cb();
 }; // const updateScores = newScores => {
 // 	DB.scores = newScores
@@ -38087,13 +38213,12 @@ var subscribeToDataLoaded = function subscribeToDataLoaded(cb) {
 
 
 var shuffleArray = function shuffleArray(array) {
-  for (var i = array.length - 1; i > 0; i--) {
-    var j = Math.floor(Math.random() * (i + 1));
-    var temp = array[i];
-    array[i] = array[j];
-    array[j] = temp;
-  }
-
+  // for(let i = array.length - 1; i > 0; i--) {
+  //     let j = Math.floor(Math.random() * (i + 1));
+  //     let temp = array[i];
+  //     array[i] = array[j];
+  //     array[j] = temp;
+  // }
   return array;
 };
 
@@ -46830,7 +46955,7 @@ var ViewChar = function ViewChar(props) {
     size: "1.2",
     color: _components.toneColors[charInfo.tone],
     bold: true
-  }, charInfo.sound)), _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Text, null, charInfo.en))), _react.default.createElement(_components.ViewBar, null, _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Text, null, charInfo.subchars.length > 0 ? 'Sub-characters' : 'No sub-characters'), _react.default.createElement(_components.Bar, null, charInfo.subchars.map(makeSubChar))), _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Text, null, charInfo.primitive === '' ? 'No primitive meaning' : 'Primitive meanings: ', charInfo.primitive))));
+  }, charInfo.sound)), _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Text, null, charInfo.en))));
 };
 
 var _default = ViewChar;
@@ -46935,9 +47060,9 @@ var ListChar = function ListChar(props) {
     }, _DB.default.infoMap[charId].char));
   };
 
-  return _react.default.createElement(_react.default.Fragment, null, _react.default.createElement(_components.ViewBar, null, _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Text, {
+  return _react.default.createElement(_components.ViewBar, null, _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Text, {
     size: "1.8"
-  }, word)), _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Text, null, wordInfo.en))), _react.default.createElement(_components.ViewBar, null, _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Text, null, "Characters"), _react.default.createElement(_components.Bar, null, wordInfo.charIds.map(makeChar)))));
+  }, word)), _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Bar, null, wordInfo.charIds.map(makeChar))), _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Text, null, wordInfo.en)));
 };
 
 var _default = ListChar;
@@ -47134,13 +47259,21 @@ var Browse = function Browse(props) {
     }) : isNaN(history.present) ? _react.default.createElement(_ViewWord.default, {
       id: history.present,
       viewItem: _viewItem
-    }) : history.present > 0 ? _react.default.createElement(_ViewChar.default, {
+    }) : _react.default.createElement(_ViewChar.default, {
       id: history.present,
       viewItem: _viewItem
-    }) : history.present < 0 ? _react.default.createElement(_ViewRad.default, {
-      id: history.present,
-      viewItem: _viewItem
-    }) : null))
+    }) // : history.present > 0 ?
+    // <ViewChar
+    // 	id={history.present}
+    // 	viewItem={viewItem}
+    // />
+    // : history.present < 0 ?
+    // <ViewRad
+    // 	id={history.present}
+    // 	viewItem={viewItem}
+    // />
+    // : null
+    ))
   );
 };
 
