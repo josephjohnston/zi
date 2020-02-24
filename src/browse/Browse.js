@@ -10,14 +10,11 @@ import {
 } from '../components'
 
 import DB from '../kernel/DB'
-// import model from '../kernel/model'
 
 import ListItem from './ListItem'
 import ViewChar from './ViewChar'
 import ViewRad from './ViewRad'
-import ViewWord from './ViewWord'
 
-// import Quiz from '../quiz/Quiz'
 
 
 const HistoryMenuBar = styled(Bar)`
@@ -42,18 +39,22 @@ const ContentContainer = styled.div`
 
 const Browse = props => {
 
-	// const [inQuiz, setInQuiz] = useState(false)
 	const [history, setHistory] = useState({
 		past: [],
-		present: 0, // 0 means list all characters, otherwise view the particular id
+		present: {
+			charId: 0,
+			word: null,
+		}, // 0 means list all characters, otherwise view the particular id
 		future: [],
 	})
 
 	// list syncing
 	const $List = useRef(null)
 	useEffect(() => {
-		if(/*inQuiz === false &&*/ history.present === 0 && history.future.length > 0) {
-			$List.current.scrollToItem(DB.itemList.indexOf(history.future[0]), 'center')
+		if(history.present.charId === 0 && history.future.length > 0) {
+			const itemToScroll = history.future[0]
+			let itemToScrollId = itemToScroll.word ? itemToScroll.word : itemToScroll.charId
+			$List.current.scrollToItem(DB.itemList.indexOf(itemToScrollId), 'smart')
 		}
 	})
 
@@ -78,10 +79,14 @@ const Browse = props => {
 			future: newFuture,
 		})
 	}
-	const viewItem = (itemId) => {
+	const viewItem = (charId, word) => {
 		const newPast = [...history.past, history.present]
-		const newPresent = itemId
+		const newPresent = {
+			charId,
+			word,
+		}
 		const newFuture = []
+
 		setHistory({
 			past: newPast,
 			present: newPresent,
@@ -90,16 +95,6 @@ const Browse = props => {
 	}
 
 	return (
-		// inQuiz
-		// ?
-		// <Quiz
-		// 	questions={model.getQuestions()}
-		// 	reportResults={(results) => {
-		// 		model.reportResults(results)
-		// 		setInQuiz(false)
-		// 	}}
-		// />
-		// :
 		<Container>
 			<HistoryMenuBar>
 				<HistoryIcon
@@ -122,7 +117,7 @@ const Browse = props => {
 				/>
 			</HistoryMenuBar>
 			<ContentContainer>
-				{ history.present === 0 ?
+				{	history.present.charId === 0 ?
 					<List
 						ref={$List}
 						height={window.innerHeight} // must be a number, can't rely on flex
@@ -134,31 +129,21 @@ const Browse = props => {
 								<ListItem
 									style={style}
 									id={DB.itemList[index]}
-									viewItem={viewItem}//() => viewItem(DB.itemList[index])}
+									viewItem={viewItem}
 								/>
 						}
 					</List>
-					: isNaN(history.present) ?
-					<ViewWord
-						id={history.present}
-						viewItem={viewItem}
-					/>
-					:
+					: history.present.charId > 0 ?
 					<ViewChar
-						id={history.present}
+						id={history.present.charId}
 						viewItem={viewItem}
 					/>
-					// : history.present > 0 ?
-					// <ViewChar
-					// 	id={history.present}
-					// 	viewItem={viewItem}
-					// />
-					// : history.present < 0 ?
-					// <ViewRad
-					// 	id={history.present}
-					// 	viewItem={viewItem}
-					// />
-					// : null
+					: history.present.charId < 0 ?
+					<ViewRad
+						id={history.present.charId}
+						viewItem={viewItem}
+					/>
+					: null
 				}
 			</ContentContainer>
 		</Container>

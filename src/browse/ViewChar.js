@@ -28,62 +28,60 @@ const ViewChar = props => {
 				>
 				{ subCharId > 0
 					? DB.infoMap[subCharId].char
-					: DB.infoMap[subCharId].rad
+					: '*' + DB.infoMap[subCharId].rad
 				}
 			</Text>
 		</SubCharButton>
-
-	return (
-		<>
-			<ViewBar>
-				<Block>
-					<CharIllustration
-						char={charInfo.char}
-					/>
-				</Block>
-				<Block>
-					<Text
-						size='1.2'
-						color={toneColors[charInfo.tone]}
-						bold={true}
-						>
-						{charInfo.sound}
-					</Text>
-				</Block>
-				<Block>
-					<Text>
-						{charInfo.en}
-					</Text>
-				</Block>
-			</ViewBar>
-			{/*<ViewBar>
-				<Block>
-					<Text>
-						{ charInfo.subchars.length > 0
-							?
-							'Sub-characters'
-							:
-							'No sub-characters'
-						}
-					</Text>
-					<Bar>
-						{ charInfo.subchars
-								.map(makeSubChar)
-						}
-					</Bar>
-				</Block>
-				<Block>
-					<Text>
-						{ charInfo.primitive === ''
-							? 'No primitive meaning'
-							: 'Primitive meanings: '
-						}
-						{charInfo.primitive}
-					</Text>
-				</Block>
-			</ViewBar>*/}
-		</>
-	)
+		
+	return <>
+		<ViewBar>
+			<Block>
+				<CharIllustration
+					char={charInfo.char}
+				/>
+			</Block>
+			<Block>
+				<Text
+					size='1.2'
+					color={toneColors[charInfo.tone]}
+					bold={true}
+					>
+					{charInfo.sound}
+				</Text>
+			</Block>
+			<Block>
+				<Text>
+					{charInfo.en}
+				</Text>
+			</Block>
+		</ViewBar>
+		<ViewBar>
+			<Block>
+				<Text>
+					{ charInfo.subchars.length > 0
+						?
+						'Sub-characters'
+						:
+						'No sub-characters'
+					}
+				</Text>
+				<Bar>
+					{ charInfo.subchars
+						.map(makeSubChar)
+					}
+				</Bar>
+			</Block>
+			<Block>
+				<Text>
+					{ charInfo.primitive === ''
+						? 'No primitive meaning'
+						: 'Primitive meanings: '
+					}
+					{charInfo.primitive}
+				</Text>
+			</Block>
+		</ViewBar>
+	</>
 }
 
 export default ViewChar

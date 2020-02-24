@@ -18,7 +18,7 @@
 	"3": {
 		"char": "三",
 		"subchars": [],
-		"tone": 3,
+		"tone": 1,
 		"sound": "san",
 		"en": "three",
 		"primitive": ""
@@ -1348,7 +1348,343 @@
 		"sound": "ling",
 		"en": "zero",
 		"primitive": ""
-	}
+	},
+	"1253": {
+		"char": "西",
+		"subchars": [1,56,11],
+		"tone": 1,
+		"sound": "xi",
+		"en": "west",
+		"primitive": "Old West"
+	},
+	"1254": {
+		"char": "要",
+		"subchars": [1253,102],
+		"tone": 4,
+		"sound": "yao",
+		"en": "to want",
+		"primitive": ""
+	},
+	"1361": {
+		"char": "用",
+		"subchars": [],
+		"tone": 4,
+		"sound": "yong",
+		"en": "utilize",
+		"primitive": "rack"
+	},
+	"1362": {
+		"char": "角",
+		"subchars": [-5,1361],
+		"tone": 3,
+		"sound": "jiao",
+		"en": "angle",
+		"primitive": "safe"
+	},
+	"1364": {
+		"char": "解",
+		"subchars": [1362,83,252],
+		"tone": 3,
+		"sound": "jie",
+		"en": "untie",
+		"primitive": ""
+	},
+	"537": {
+		"char": "想",
+		"subchars": [212,563],
+		"tone": 3,
+		"sound": "xiang",
+		"en": "think",
+		"primitive": ""
+	},
+	"563": {
+		"char": "心",
+		"subchars": [-1],
+		"tone": 1,
+		"sound": "xin",
+		"en": "heart",
+		"primitive": "heart"
+	},
+	"212": {
+		"char": "相",
+		"subchars": [202,15],
+		"tone": 1,
+		"sound": "xiang",
+		"en": "one another",
+		"primitive": ""
+	},
+	"202": {
+		"char": "木",
+		"subchars": [],
+		"tone": 4,
+		"sound": "mu",
+		"en": "tree",
+		"primitive": "pole"
+	},
+	"583": {
+		"char": "必",
+		"subchars": [563],
+		"tone": 4,
+		"sound": "bi",
+		"en": "certainly",
+		"primitive": ""
+	},
+	"584": {
+		"char": "手",
+		"subchars": [-1,1],
+		"tone": 3,
+		"sound": "shou",
+		"en": "hand",
+		"primitive": "hand"
+	},
+	"585": {
+		"char": "看",
+		"subchars": [584,15],
+		"tone": 4,
+		"sound": "kan",
+		"en": "look at",
+		"primitive": ""
+	},
+	"361": {
+		"char": "戈",
+		"tone": 1,
+		"sound": "ge",
+		"en": "halbert",
+		"primitive": "fiesta"
+	},
+
+	"588": {
+		"char": "我",
+		"subchars": [584,361],
+		"tone": 3,
+		"sound": "wo",
+		"en": "I",
+		"primitive": ""
+	},
+	"1307": {
+		"char": "须",
+		"subchars": [-14,52],
+		"tone": 1,
+		"sound": "xu",
+		"en": "have to",
+		"primitive": ""
+	},
+	"252": {
+		"char": "牛",
+		"subchars": [-1],
+		"tone": 2,
+		"sound": "niu",
+		"en": "cow",
+		"primitive": "cow"
+	},
+	"256": {
+		"char": "先",
+		"subchars": [252,56],
+		"tone": 1,
+		"sound": "xian",
+		"en": "before",
+		"primitive": ""
+	},
+	"179": {
+		"char": "里",
+		"subchars": [14,158],
+		"tone": 3,
+		"sound": "li",
+		"en": "li",
+		"primitive": "computer"
+	},
+	"185": {
+		"char": "同",
+		"subchars": [-17,1,11],
+		"tone": 2,
+		"sound": "tong",
+		"en": "same",
+		"primitive": "monks"
+	},
+	"265": {
+		"char": "王",
+		"subchars": [],
+		"tone": 2,
+		"sound": "wang",
+		"en": "king",
+		"primitive": "jewel, ball"
+	},
+	"276": {
+		"char": "理",
+		"subchars": [265,179],
+		"tone": 3,
+		"sound": "li",
+		"en": "logic",
+		"primitive": ""
+	},
+	"793": {
+		"char": "人",
+		"subchars": [],
+		"tone": 2,
+		"sound": "ren",
+		"en": "person",
+		"primitive": ""
+	},
+	"802": {
+		"char": "什",
+		"subchars": [793,10],
+		"tone": 2,
+		"sound": "shen",
+		"en": "what?",
+		"primitive": ""
+	},
+	"670": {
+		"char": "么",
+		"subchars": [-1,-15],
+		"tone": 0,
+		"sound": "me",
+		"en": "(suffix)",
+		"primitive": ""
+	},
+	"1469": {
+		"char": "关",
+		"subchars": [-19,436],
+		"tone": 1,
+		"sound": "guan",
+		"en": "to shut",
+		"primitive": "golden calf"
+	},
+	"1277": {
+		"char": "干",
+		"tone": 1,
+		"sound": "gan",
+		"en": "dry",
+		"primitive": "clothesline"
+	},
+	"1281": {
+		"char": "于",
+		"subchars": [],
+		"tone": 2,
+		"sound": "yu",
+		"en": "Yu",
+		"primitive": "clothing conveyor"
+	},
+	"1159": {
+		"char": "概",
+		"subchars": [202,1158],
+		"tone": 4,
+		"sound": "gai",
+		"en": "approximate",
+		"primitive": ""
+	},
+	"1158": {
+		"char": "既",
+		"subchars": [-20,-21],
+		"tone": 4,
+		"sound": "ji",
+		"en": "since",
+		"primitive": ""
+	},
+	"1246": {
+		"char": "念",
+		"subchars": [1244,563],
+		"tone": 4,
+		"sound": "nian",
+		"en": "to miss",
+		"primitive": ""
+	},
+	"1244": {
+		"char": "今",
+		"subchars": [-11],
+		"tone": 1,
+		"sound": "jin",
+		"en": "now",
+		"primitive": "clock"
+	},
+	"863": {
+		"char": "并",
+		"subchars": [-19,613],
+		"tone": 4,
+		"sound": "bing",
+		"en": "to combine",
+		"primitive": "puzzle"
+	},
+	"613": {
+		"char": "开",
+		"subchars": [],
+		"tone": 1,
+		"sound": "kai",
+		"en": "to open",
+		"primitive": "two hands"
+	},
+	"644": {
+		"char": "难",
+		"subchars": [633,-16],
+		"tone": 2,
+		"sound": "nan",
+		"en": "difficult",
+		"primitive": ""
+	},
+	"633": {
+		"char": "又",
+		"subchars": [],
+		"tone": 4,
+		"sound": "you",
+		"en": "again",
+		"primitive": "crotch, right hand"
+	},
+	"1260": {
+		"char": "门",
+		"subchars": [],
+		"tone": 2,
+		"sound": "men",
+		"en": "gate",
+		"primitive": ""
+	},
+	"1261": {
+		"char": "们",
+		"subchars": [793,1260],
+		"tone": 0,
+		"sound": "men",
+		"en": "(plural)",
+		"primitive": ""
+	},
+	"861": {
+		"char": "以",
+		"subchars": [-22,-1,793],
+		"tone": 3,
+		"sound": "yi",
+		"en": "by means of",
+		"primitive": ""
+	},
+	"856": {
+		"char": "头",
+		"subchars": [113],
+		"tone": 2,
+		"sound": "tou",
+		"en": "head",
+		"primitive": "a bust"
+	},
+	"940": {
+		"char": "作",
+		"subchars": [793,937],
+		"tone": 4,
+		"sound": "zuo",
+		"en": "do",
+		"primitive": ""
+	},
+	"937": {
+		"char": "乍",
+		"tone": 4,
+		"sound": "zha",
+		"en": "for the first time",
+		"subchars": [],
+		"primitive": "a saw"
+	},
+	"3001": {
+		"char": "了",
+		"tone": 3,
+		"sound": "liao",
+		"en": "..clear-sited",
+		"subchars": [],
+		"primitive": ""
+	},
+
 }
 
 
@@ -1356,5 +1692,10 @@
 	// 	"char": "",
 	// 	"tone": 0,
 	// 	"sound": "",
-	// 	"en": ""
-	// }
+	// 	"en": "",
+	// 	"subchars": [],
+	// 	"primitive": ""
+	// },
+
+
+

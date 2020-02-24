@@ -76,7 +76,61 @@
 		"subchars": [-12,57],
 		"en": "whirlwind",
 		"other": ""
-	}
+	},
+	"-14": {
+		"rad": "彡",
+		"subchars": [],
+		"en": "rooster tail",
+		"other": ""
+	},
+	"-15": {
+		"rad": "厶",
+		"subchars": [],
+		"en": "elbow",
+		"other": ""
+	},
+	"-16": {
+		"rad": "隹",
+		"subchars": [],
+		"en": "turkey",
+		"other": ""
+	},
+	"-17": {
+		"rad": "冂",
+		"subchars": [],
+		"en": "hood",
+		"other": ""
+	},
+	"-18": {
+		"rad": "弋",
+		"subchars": [],
+		"en": "arrow",
+		"other": ""
+	},
+	"-19": {
+		"rad": "丷",
+		"subchars": [],
+		"en": "animal horns",
+		"other": ""
+	},
+	"-20": {
+		"rad": "艮",
+		"subchars": [],
+		"en": "silver",
+		"other": ""
+	},
+	"-21": {
+		"rad": "旡",
+		"subchars": [],
+		"en": "waitress",
+		"other": ""
+	},
+	"-22": {
+		"rad": "𠄌",
+		"subchars": [],
+		"en": "plow",
+		"other": ""
+	},
 }
 	// "": {
 	// 	"rad": "",

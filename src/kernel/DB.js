@@ -93,7 +93,7 @@ const subscribeToDataLoaded = (cb) => {
 	for(const word in wordInfoMap) {
 		DB.infoMap[word] = wordInfoMap[word]
 	}
-	DB.itemList = shuffleArray([/*...Object.keys(charInfoMap),*/ ...Object.keys(wordInfoMap)])
+	DB.itemList = shuffleArray([...Object.keys(charInfoMap), ...Object.keys(wordInfoMap)])
 	cb()
 }
 
@@ -103,12 +103,12 @@ const subscribeToDataLoaded = (cb) => {
 // }
 
 const shuffleArray = array => {
-    // for(let i = array.length - 1; i > 0; i--) {
-    //     let j = Math.floor(Math.random() * (i + 1));
-    //     let temp = array[i];
-    //     array[i] = array[j];
-    //     array[j] = temp;
-    // }
+    for(let i = array.length - 1; i > 0; i--) {
+        let j = Math.floor(Math.random() * (i + 1));
+        let temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+    }
     return array
 }
 

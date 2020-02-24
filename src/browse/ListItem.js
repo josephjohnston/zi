@@ -15,88 +15,81 @@ import DB from '../kernel/DB'
 const ItemBar = styled.div`
 	display: flex;
 	flex-direction: row;
+	// padding: 1vw;
+	border-radius: 1vw;
 `
 
+
 const ListItem = props => {
-	// const itemInfo = DB.infoMap[props.id]
-	// const IS_WORD = isNaN(props.id)
+	const itemInfo = DB.infoMap[props.id]
+	const IS_WORD = isNaN(props.id)
 
-	const word = props.id
-    const wordInfo = DB.infoMap[word]
+	const ListChar = () => 
+		<ItemBar
+			onClick={() => props.viewItem(props.id)}
+			style={props.style}
+			>
+			<Block
+				className='pointer-on-hover'
+				>
+				<Text
+					size='1.6'
+					// color={toneColors[itemInfo.tone]}
+					>
+					{itemInfo.char}
+				</Text>
+			</Block>
+			<Block
+				className='pointer-on-hover'
+				>
+				<Text>
+					{itemInfo.en}
+				</Text>
+			</Block>
+			<Block
+				className='pointer-on-hover'
+				>
+				<Text
+					size='1.2'
+					bold={true}
+					color={toneColors[itemInfo.tone]}
+					>
+					{itemInfo.sound}
+				</Text>
+			</Block>
+		</ItemBar>
 
-    const makeChar = (charId, i) =>
-    	<SubCharButton
-            key={i}
-            onClick={() => props.viewItem(charId)}
-            className='pointer-on-hover'
-        >
-            <Text
-                size='1.2'
-                >
-                { DB.infoMap[charId].char }
-            </Text>
-        </SubCharButton>
+	const makeChar = (charId, i) =>
+		<Text
+			key={i}
+			onClick={() => props.viewItem(charId, props.id)}
+			className='pointer-on-hover'
+			size='1.6'
+			// color={toneColors[DB.infoMap[charId].tone]}
+			>
+			{ DB.infoMap[charId].char }
+		</Text>
 
-    return (
-        <ViewBar>
-            <Block>
-                <Text
-                    size='1.8'
-                    >
-                 { word }
-                </Text>
-            </Block>
-            <Block>
-                <Bar>
-                    { wordInfo.charIds 
-                        .map(makeChar)
-                    }
-                </Bar>
-            </Block>
-            <Block>
-                <Text>
-                    { wordInfo.en }
-                </Text>
-            </Block>
-        </ViewBar>
-    )
-	// return (
-	// 	<ItemBar
-	// 		onClick={props.viewItem}
-	// 		style={props.style}
-	// 		>
-	// 		<Block
-	// 			className='pointer-on-hover'
-	// 			>
-	// 			<Text
-	// 				size='1.4'
-	// 				>
-	// 				{ IS_WORD ? props.id : itemInfo.char }
-	// 			</Text>
-	// 		</Block>
-	// 		{ IS_WORD
-	// 			? null
-	// 			: <Block
-	// 				className='pointer-on-hover'
-	// 				>
-	// 				<Text
-	// 					size='1.2'
-	// 					bold={true}
-	// 					color={toneColors[itemInfo.tone]}
-	// 					>
-	// 					{ itemInfo.sound }
-	// 				</Text>
-	// 			</Block>
-	// 		}
-	// 		<Block
-	// 			className='pointer-on-hover'
-	// 			>
-	// 			<Text>
-	// 				{IS_WORD ? itemInfo.en : itemInfo.en}
-	// 			</Text>
-	// 		</Block>
-	// 	</ItemBar>
-	// )
+	const ListWord = () =>
+		<ItemBar
+			style={props.style}
+			>
+			<Block>
+				<Bar>
+					{ itemInfo.charIds 
+						.map(makeChar)
+					}
+				</Bar>
+			</Block>
+			<Block>
+				<Text>
+					{ itemInfo.en }
+				</Text>
+			</Block>
+		</ItemBar>
+
+	return IS_WORD ? <ListWord/> : <ListChar/>
+
 }
 
 export default ListItem

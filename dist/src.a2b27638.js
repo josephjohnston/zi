@@ -36655,7 +36655,7 @@ module.exports = {
   "3": {
     "char": "三",
     "subchars": [],
-    "tone": 3,
+    "tone": 1,
     "sound": "san",
     "en": "three",
     "primitive": ""
@@ -37985,13 +37985,350 @@ module.exports = {
     "sound": "ling",
     "en": "zero",
     "primitive": ""
+  },
+  "1253": {
+    "char": "西",
+    "subchars": [1, 56, 11],
+    "tone": 1,
+    "sound": "xi",
+    "en": "west",
+    "primitive": "Old West"
+  },
+  "1254": {
+    "char": "要",
+    "subchars": [1253, 102],
+    "tone": 4,
+    "sound": "yao",
+    "en": "to want",
+    "primitive": ""
+  },
+  "1361": {
+    "char": "用",
+    "subchars": [],
+    "tone": 4,
+    "sound": "yong",
+    "en": "utilize",
+    "primitive": "rack"
+  },
+  "1362": {
+    "char": "角",
+    "subchars": [-5, 1361],
+    "tone": 3,
+    "sound": "jiao",
+    "en": "angle",
+    "primitive": "safe"
+  },
+  "1364": {
+    "char": "解",
+    "subchars": [1362, 83, 252],
+    "tone": 3,
+    "sound": "jie",
+    "en": "untie",
+    "primitive": ""
+  },
+  "537": {
+    "char": "想",
+    "subchars": [212, 563],
+    "tone": 3,
+    "sound": "xiang",
+    "en": "think",
+    "primitive": ""
+  },
+  "563": {
+    "char": "心",
+    "subchars": [-1],
+    "tone": 1,
+    "sound": "xin",
+    "en": "heart",
+    "primitive": "heart"
+  },
+  "212": {
+    "char": "相",
+    "subchars": [202, 15],
+    "tone": 1,
+    "sound": "xiang",
+    "en": "one another",
+    "primitive": ""
+  },
+  "202": {
+    "char": "木",
+    "subchars": [],
+    "tone": 4,
+    "sound": "mu",
+    "en": "tree",
+    "primitive": "pole"
+  },
+  "583": {
+    "char": "必",
+    "subchars": [563],
+    "tone": 4,
+    "sound": "bi",
+    "en": "certainly",
+    "primitive": ""
+  },
+  "584": {
+    "char": "手",
+    "subchars": [-1, 1],
+    "tone": 3,
+    "sound": "shou",
+    "en": "hand",
+    "primitive": "hand"
+  },
+  "585": {
+    "char": "看",
+    "subchars": [584, 15],
+    "tone": 4,
+    "sound": "kan",
+    "en": "look at",
+    "primitive": ""
+  },
+  "361": {
+    "char": "戈",
+    "tone": 1,
+    "sound": "ge",
+    "en": "halbert",
+    "primitive": "fiesta"
+  },
+  "588": {
+    "char": "我",
+    "subchars": [584, 361],
+    "tone": 3,
+    "sound": "wo",
+    "en": "I",
+    "primitive": ""
+  },
+  "1307": {
+    "char": "须",
+    "subchars": [-14, 52],
+    "tone": 1,
+    "sound": "xu",
+    "en": "have to",
+    "primitive": ""
+  },
+  "252": {
+    "char": "牛",
+    "subchars": [-1],
+    "tone": 2,
+    "sound": "niu",
+    "en": "cow",
+    "primitive": "cow"
+  },
+  "256": {
+    "char": "先",
+    "subchars": [252, 56],
+    "tone": 1,
+    "sound": "xian",
+    "en": "before",
+    "primitive": ""
+  },
+  "179": {
+    "char": "里",
+    "subchars": [14, 158],
+    "tone": 3,
+    "sound": "li",
+    "en": "li",
+    "primitive": "computer"
+  },
+  "185": {
+    "char": "同",
+    "subchars": [-17, 1, 11],
+    "tone": 2,
+    "sound": "tong",
+    "en": "same",
+    "primitive": "monks"
+  },
+  "265": {
+    "char": "王",
+    "subchars": [],
+    "tone": 2,
+    "sound": "wang",
+    "en": "king",
+    "primitive": "jewel, ball"
+  },
+  "276": {
+    "char": "理",
+    "subchars": [265, 179],
+    "tone": 3,
+    "sound": "li",
+    "en": "logic",
+    "primitive": ""
+  },
+  "793": {
+    "char": "人",
+    "subchars": [],
+    "tone": 2,
+    "sound": "ren",
+    "en": "person",
+    "primitive": ""
+  },
+  "802": {
+    "char": "什",
+    "subchars": [793, 10],
+    "tone": 2,
+    "sound": "shen",
+    "en": "what?",
+    "primitive": ""
+  },
+  "670": {
+    "char": "么",
+    "subchars": [-1, -15],
+    "tone": 0,
+    "sound": "me",
+    "en": "(suffix)",
+    "primitive": ""
+  },
+  "1469": {
+    "char": "关",
+    "subchars": [-19, 436],
+    "tone": 1,
+    "sound": "guan",
+    "en": "to shut",
+    "primitive": "golden calf"
+  },
+  "1277": {
+    "char": "干",
+    "tone": 1,
+    "sound": "gan",
+    "en": "dry",
+    "primitive": "clothesline"
+  },
+  "1281": {
+    "char": "于",
+    "subchars": [],
+    "tone": 2,
+    "sound": "yu",
+    "en": "Yu",
+    "primitive": "clothing conveyor"
+  },
+  "1159": {
+    "char": "概",
+    "subchars": [202, 1158],
+    "tone": 4,
+    "sound": "gai",
+    "en": "approximate",
+    "primitive": ""
+  },
+  "1158": {
+    "char": "既",
+    "subchars": [-20, -21],
+    "tone": 4,
+    "sound": "ji",
+    "en": "since",
+    "primitive": ""
+  },
+  "1246": {
+    "char": "念",
+    "subchars": [1244, 563],
+    "tone": 4,
+    "sound": "nian",
+    "en": "to miss",
+    "primitive": ""
+  },
+  "1244": {
+    "char": "今",
+    "subchars": [-11],
+    "tone": 1,
+    "sound": "jin",
+    "en": "now",
+    "primitive": "clock"
+  },
+  "863": {
+    "char": "并",
+    "subchars": [-19, 613],
+    "tone": 4,
+    "sound": "bing",
+    "en": "to combine",
+    "primitive": "puzzle"
+  },
+  "613": {
+    "char": "开",
+    "subchars": [],
+    "tone": 1,
+    "sound": "kai",
+    "en": "to open",
+    "primitive": "two hands"
+  },
+  "644": {
+    "char": "难",
+    "subchars": [633, -16],
+    "tone": 2,
+    "sound": "nan",
+    "en": "difficult",
+    "primitive": ""
+  },
+  "633": {
+    "char": "又",
+    "subchars": [],
+    "tone": 4,
+    "sound": "you",
+    "en": "again",
+    "primitive": "crotch, right hand"
+  },
+  "1260": {
+    "char": "门",
+    "subchars": [],
+    "tone": 2,
+    "sound": "men",
+    "en": "gate",
+    "primitive": ""
+  },
+  "1261": {
+    "char": "们",
+    "subchars": [793, 1260],
+    "tone": 0,
+    "sound": "men",
+    "en": "(plural)",
+    "primitive": ""
+  },
+  "861": {
+    "char": "以",
+    "subchars": [-22, -1, 793],
+    "tone": 3,
+    "sound": "yi",
+    "en": "by means of",
+    "primitive": ""
+  },
+  "856": {
+    "char": "头",
+    "subchars": [113],
+    "tone": 2,
+    "sound": "tou",
+    "en": "head",
+    "primitive": "a bust"
+  },
+  "940": {
+    "char": "作",
+    "subchars": [793, 937],
+    "tone": 4,
+    "sound": "zuo",
+    "en": "do",
+    "primitive": ""
+  },
+  "937": {
+    "char": "乍",
+    "tone": 4,
+    "sound": "zha",
+    "en": "for the first time",
+    "subchars": [],
+    "primitive": "a saw"
+  },
+  "3001": {
+    "char": "了",
+    "tone": 3,
+    "sound": "liao",
+    "en": "..clear-sited",
+    "subchars": [],
+    "primitive": ""
   }
-}; // "": {
+} // "": {
 // 	"char": "",
 // 	"tone": 0,
 // 	"sound": "",
-// 	"en": ""
-// };
+// 	"en": "",
+// 	"subchars": [],
+// 	"primitive": ""
+// },
+;
 },{}],"src/kernel/radInfoMap.json":[function(require,module,exports) {
 module.exports = {
   "-1": {
@@ -38071,6 +38408,60 @@ module.exports = {
     "subchars": [-12, 57],
     "en": "whirlwind",
     "other": ""
+  },
+  "-14": {
+    "rad": "彡",
+    "subchars": [],
+    "en": "rooster tail",
+    "other": ""
+  },
+  "-15": {
+    "rad": "厶",
+    "subchars": [],
+    "en": "elbow",
+    "other": ""
+  },
+  "-16": {
+    "rad": "隹",
+    "subchars": [],
+    "en": "turkey",
+    "other": ""
+  },
+  "-17": {
+    "rad": "冂",
+    "subchars": [],
+    "en": "hood",
+    "other": ""
+  },
+  "-18": {
+    "rad": "弋",
+    "subchars": [],
+    "en": "arrow",
+    "other": ""
+  },
+  "-19": {
+    "rad": "丷",
+    "subchars": [],
+    "en": "animal horns",
+    "other": ""
+  },
+  "-20": {
+    "rad": "艮",
+    "subchars": [],
+    "en": "silver",
+    "other": ""
+  },
+  "-21": {
+    "rad": "旡",
+    "subchars": [],
+    "en": "waitress",
+    "other": ""
+  },
+  "-22": {
+    "rad": "𠄌",
+    "subchars": [],
+    "en": "plow",
+    "other": ""
   }
 }; // "": {
 // 	"rad": "",
@@ -38087,6 +38478,30 @@ module.exports = {
   "证明": {
     "charIds": [388, 21],
     "en": "proof"
+  },
+  "了解": {
+    "charIds": [3001, 1364],
+    "en": "to understand"
+  },
+  "必须": {
+    "charIds": [583, 1307],
+    "en": "must"
+  },
+  "理解": {
+    "charIds": [276, 1364],
+    "en": "to comprehend"
+  },
+  "什么": {
+    "charIds": [802, 670],
+    "en": "what?"
+  },
+  "关于": {
+    "charIds": [1469, 1281],
+    "en": "regarding"
+  },
+  "概念": {
+    "charIds": [1159, 1246],
+    "en": "concept"
   }
 }; // "": {
 //     "charIds": [],
@@ -38204,7 +38619,7 @@ var subscribeToDataLoaded = function subscribeToDataLoaded(cb) {
     DB.infoMap[word] = _wordInfoMap.default[word];
   }
 
-  DB.itemList = shuffleArray(_toConsumableArray(Object.keys(_wordInfoMap.default)));
+  DB.itemList = shuffleArray([].concat(_toConsumableArray(Object.keys(_charInfoMap.default)), _toConsumableArray(Object.keys(_wordInfoMap.default))));
   cb();
 }; // const updateScores = newScores => {
 // 	DB.scores = newScores
@@ -38213,12 +38628,13 @@ var subscribeToDataLoaded = function subscribeToDataLoaded(cb) {
 
 
 var shuffleArray = function shuffleArray(array) {
-  // for(let i = array.length - 1; i > 0; i--) {
-  //     let j = Math.floor(Math.random() * (i + 1));
-  //     let temp = array[i];
-  //     array[i] = array[j];
-  //     array[j] = temp;
-  // }
+  for (var i = array.length - 1; i > 0; i--) {
+    var j = Math.floor(Math.random() * (i + 1));
+    var temp = array[i];
+    array[i] = array[j];
+    array[j] = temp;
+  }
+
   return array;
 };
 
@@ -43960,7 +44376,7 @@ function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n\tdisplay: flex;\n\tflex-direction: row;\n"]);
+  var data = _taggedTemplateLiteral(["\n\tdisplay: flex;\n\tflex-direction: row;\n\t// padding: 1vw;\n\tborder-radius: 1vw;\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -43974,62 +44390,50 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
 var ItemBar = _styledComponents.default.div(_templateObject());
 
 var ListItem = function ListItem(props) {
-  // const itemInfo = DB.infoMap[props.id]
-  // const IS_WORD = isNaN(props.id)
-  var word = props.id;
-  var wordInfo = _DB.default.infoMap[word];
+  var itemInfo = _DB.default.infoMap[props.id];
+  var IS_WORD = isNaN(props.id);
 
-  var makeChar = function makeChar(charId, i) {
-    return _react.default.createElement(_components.SubCharButton, {
-      key: i,
+  var ListChar = function ListChar() {
+    return _react.default.createElement(ItemBar, {
       onClick: function onClick() {
-        return props.viewItem(charId);
+        return props.viewItem(props.id);
       },
+      style: props.style
+    }, _react.default.createElement(_components.Block, {
       className: "pointer-on-hover"
     }, _react.default.createElement(_components.Text, {
-      size: "1.2"
-    }, _DB.default.infoMap[charId].char));
+      size: "1.6" // color={toneColors[itemInfo.tone]}
+
+    }, itemInfo.char)), _react.default.createElement(_components.Block, {
+      className: "pointer-on-hover"
+    }, _react.default.createElement(_components.Text, null, itemInfo.en)), _react.default.createElement(_components.Block, {
+      className: "pointer-on-hover"
+    }, _react.default.createElement(_components.Text, {
+      size: "1.2",
+      bold: true,
+      color: _components.toneColors[itemInfo.tone]
+    }, itemInfo.sound)));
   };
 
-  return _react.default.createElement(_components.ViewBar, null, _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Text, {
-    size: "1.8"
-  }, word)), _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Bar, null, wordInfo.charIds.map(makeChar))), _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Text, null, wordInfo.en))); // return (
-  // 	<ItemBar
-  // 		onClick={props.viewItem}
-  // 		style={props.style}
-  // 		>
-  // 		<Block
-  // 			className='pointer-on-hover'
-  // 			>
-  // 			<Text
-  // 				size='1.4'
-  // 				>
-  // 				{ IS_WORD ? props.id : itemInfo.char }
-  // 			</Text>
-  // 		</Block>
-  // 		{ IS_WORD
-  // 			? null
-  // 			: <Block
-  // 				className='pointer-on-hover'
-  // 				>
-  // 				<Text
-  // 					size='1.2'
-  // 					bold={true}
-  // 					color={toneColors[itemInfo.tone]}
-  // 					>
-  // 					{ itemInfo.sound }
-  // 				</Text>
-  // 			</Block>
-  // 		}
-  // 		<Block
-  // 			className='pointer-on-hover'
-  // 			>
-  // 			<Text>
-  // 				{IS_WORD ? itemInfo.en : itemInfo.en}
-  // 			</Text>
-  // 		</Block>
-  // 	</ItemBar>
-  // )
+  var makeChar = function makeChar(charId, i) {
+    return _react.default.createElement(_components.Text, {
+      key: i,
+      onClick: function onClick() {
+        return props.viewItem(charId, props.id);
+      },
+      className: "pointer-on-hover",
+      size: "1.6" // color={toneColors[DB.infoMap[charId].tone]}
+
+    }, _DB.default.infoMap[charId].char);
+  };
+
+  var ListWord = function ListWord() {
+    return _react.default.createElement(ItemBar, {
+      style: props.style
+    }, _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Bar, null, itemInfo.charIds.map(makeChar))), _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Text, null, itemInfo.en)));
+  };
+
+  return IS_WORD ? _react.default.createElement(ListWord, null) : _react.default.createElement(ListChar, null);
 };
 
 var _default = ListItem;
@@ -46984,7 +47388,7 @@ var ViewChar = function ViewChar(props) {
       className: "pointer-on-hover"
     }, _react.default.createElement(_components.Text, {
       size: "1.2"
-    }, subCharId > 0 ? _DB.default.infoMap[subCharId].char : _DB.default.infoMap[subCharId].rad));
+    }, subCharId > 0 ? _DB.default.infoMap[subCharId].char : '*' + _DB.default.infoMap[subCharId].rad));
   };
 
   return _react.default.createElement(_react.default.Fragment, null, _react.default.createElement(_components.ViewBar, null, _react.default.createElement(_components.Block, null, _react.default.createElement(_CharIllustration.default, {
@@ -46993,7 +47397,7 @@ var ViewChar = function ViewChar(props) {
     size: "1.2",
     color: _components.toneColors[charInfo.tone],
     bold: true
-  }, charInfo.sound)), _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Text, null, charInfo.en))));
+  }, charInfo.sound)), _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Text, null, charInfo.en))), _react.default.createElement(_components.ViewBar, null, _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Text, null, charInfo.subchars.length > 0 ? 'Sub-characters' : 'No sub-characters'), _react.default.createElement(_components.Bar, null, charInfo.subchars.map(makeSubChar))), _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Text, null, charInfo.primitive === '' ? 'No primitive meaning' : 'Primitive meanings: ', charInfo.primitive))));
 };
 
 var _default = ViewChar;
@@ -47034,76 +47438,16 @@ var ViewRad = function ViewRad(props) {
       className: "pointer-on-hover"
     }, _react.default.createElement(_components.Text, {
       size: "1.2"
-    }, subCharId > 0 ? _DB.default.infoMap[subCharId].char : _DB.default.infoMap[subCharId].rad));
+    }, subCharId > 0 ? _DB.default.infoMap[subCharId].char : '*' + _DB.default.infoMap[subCharId].rad));
   };
 
-  return _react.default.createElement(_react.default.Fragment, null, _react.default.createElement(_components.ViewBar, null, _react.default.createElement(_components.Block, null, _react.default.createElement(_CharIllustration.default, {
-    char: radInfo.rad
-  })), _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Text, null, radInfo.en))), _react.default.createElement(_components.ViewBar, null, _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Text, null, radInfo.subchars.length > 0 ? 'Sub-characters: ' : 'No sub-characters'), _react.default.createElement(_components.Bar, null, radInfo.subchars.map(makeSubChar))), _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Text, null, radInfo.other !== '' ? 'Primitive meanings: ' : 'No comments', radInfo.other))));
+  return _react.default.createElement(_react.default.Fragment, null, _react.default.createElement(_components.ViewBar, null, _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Text, {
+    size: "1.4" // color={toneColors[itemInfo.tone]}
+
+  }, radInfo.rad)), _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Text, null, radInfo.en))), _react.default.createElement(_components.ViewBar, null, _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Text, null, radInfo.subchars.length > 0 ? 'Sub-characters: ' : 'No sub-characters'), _react.default.createElement(_components.Bar, null, radInfo.subchars.map(makeSubChar))), _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Text, null, radInfo.other !== '' ? 'Primitive meaning: ' : 'No comments', radInfo.other))));
 };
 
 var _default = ViewRad;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","styled-components":"node_modules/styled-components/dist/styled-components.browser.esm.js","../components":"src/components.js","./CharIllustration":"src/browse/CharIllustration.js","../kernel/DB":"src/kernel/DB.js"}],"src/browse/ViewWord.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireWildcard(require("react"));
-
-var _styledComponents = _interopRequireDefault(require("styled-components"));
-
-var _components = require("../components");
-
-var _CharIllustration = _interopRequireDefault(require("./CharIllustration"));
-
-var _DB = _interopRequireDefault(require("../kernel/DB"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
-
-function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n    display: flex;\n    flex-direction: row;\n"]);
-
-  _templateObject = function _templateObject() {
-    return data;
-  };
-
-  return data;
-}
-
-function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
-
-var ItemBar = _styledComponents.default.div(_templateObject());
-
-var ListChar = function ListChar(props) {
-  var word = props.id;
-  var wordInfo = _DB.default.infoMap[word];
-
-  var makeChar = function makeChar(charId, i) {
-    return _react.default.createElement(_components.SubCharButton, {
-      key: i,
-      onClick: function onClick() {
-        return props.viewItem(charId);
-      },
-      className: "pointer-on-hover"
-    }, _react.default.createElement(_components.Text, {
-      size: "1.2"
-    }, _DB.default.infoMap[charId].char));
-  };
-
-  return _react.default.createElement(_components.ViewBar, null, _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Text, {
-    size: "1.8"
-  }, word)), _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Bar, null, wordInfo.charIds.map(makeChar))), _react.default.createElement(_components.Block, null, _react.default.createElement(_components.Text, null, wordInfo.en)));
-};
-
-var _default = ListChar;
 exports.default = _default;
 },{"react":"node_modules/react/index.js","styled-components":"node_modules/styled-components/dist/styled-components.browser.esm.js","../components":"src/components.js","./CharIllustration":"src/browse/CharIllustration.js","../kernel/DB":"src/kernel/DB.js"}],"src/browse/Browse.js":[function(require,module,exports) {
 "use strict";
@@ -47130,8 +47474,6 @@ var _ListItem = _interopRequireDefault(require("./ListItem"));
 var _ViewChar = _interopRequireDefault(require("./ViewChar"));
 
 var _ViewRad = _interopRequireDefault(require("./ViewRad"));
-
-var _ViewWord = _interopRequireDefault(require("./ViewWord"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -47187,7 +47529,6 @@ function _templateObject() {
 
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
-// import Quiz from '../quiz/Quiz'
 var HistoryMenuBar = (0, _styledComponents.default)(_components.Bar)(_templateObject(), _components.colors.primary);
 var HistoryIcon = (0, _styledComponents.default)(_reactFontawesome.FontAwesomeIcon)(_templateObject2(), function (props) {
   return props.disabled ? _components.colors.mutedPrimary : _components.colors.light;
@@ -47196,10 +47537,12 @@ var HistoryIcon = (0, _styledComponents.default)(_reactFontawesome.FontAwesomeIc
 var ContentContainer = _styledComponents.default.div(_templateObject3(), _components.colors.dark, _components.colors.medium);
 
 var Browse = function Browse(props) {
-  // const [inQuiz, setInQuiz] = useState(false)
   var _useState = (0, _react.useState)({
     past: [],
-    present: 0,
+    present: {
+      charId: 0,
+      word: null
+    },
     // 0 means list all characters, otherwise view the particular id
     future: []
   }),
@@ -47210,10 +47553,10 @@ var Browse = function Browse(props) {
 
   var $List = (0, _react.useRef)(null);
   (0, _react.useEffect)(function () {
-    if (
-    /*inQuiz === false &&*/
-    history.present === 0 && history.future.length > 0) {
-      $List.current.scrollToItem(_DB.default.itemList.indexOf(history.future[0]), 'center');
+    if (history.present.charId === 0 && history.future.length > 0) {
+      var itemToScroll = history.future[0];
+      var itemToScrollId = itemToScroll.word ? itemToScroll.word : itemToScroll.charId;
+      $List.current.scrollToItem(_DB.default.itemList.indexOf(itemToScrollId), 'smart');
     }
   }); // history operations
 
@@ -47239,9 +47582,12 @@ var Browse = function Browse(props) {
     });
   };
 
-  var viewItem = function viewItem(itemId) {
+  var viewItem = function viewItem(charId, word) {
     var newPast = [].concat(_toConsumableArray(history.past), [history.present]);
-    var newPresent = itemId;
+    var newPresent = {
+      charId: charId,
+      word: word
+    };
     var newFuture = [];
     setHistory({
       past: newPast,
@@ -47250,73 +47596,50 @@ var Browse = function Browse(props) {
     });
   };
 
-  return (// inQuiz
-    // ?
-    // <Quiz
-    // 	questions={model.getQuestions()}
-    // 	reportResults={(results) => {
-    // 		model.reportResults(results)
-    // 		setInQuiz(false)
-    // 	}}
-    // />
-    // :
-    _react.default.createElement(_components.Container, null, _react.default.createElement(HistoryMenuBar, null, _react.default.createElement(HistoryIcon, {
-      icon: 'chevron-left',
-      size: "lg",
-      disabled: history.past.length === 0,
-      onClick: function onClick() {
-        history.past.length > 0 ? jumpBack() : null;
-      },
-      className: history.past.length > 0 ? 'pointer-on-hover' : null
-    }), _react.default.createElement(HistoryIcon, {
-      icon: 'chevron-right',
-      size: "lg",
-      disabled: history.future.length === 0,
-      onClick: function onClick() {
-        history.future.length > 0 ? jumpForward() : null;
-      },
-      className: history.future.length > 0 ? 'pointer-on-hover' : null
-    })), _react.default.createElement(ContentContainer, null, history.present === 0 ? _react.default.createElement(_reactWindow.FixedSizeList, {
-      ref: $List,
-      height: window.innerHeight // must be a number, can't rely on flex
-      ,
-      itemCount: _DB.default.itemList.length,
-      itemSize: 72 // another number
-      ,
-      width: "100%"
-    }, function (_ref) {
-      var index = _ref.index,
-          style = _ref.style;
-      return _react.default.createElement(_ListItem.default, {
-        style: style,
-        id: _DB.default.itemList[index],
-        viewItem: viewItem //() => viewItem(DB.itemList[index])}
-
-      });
-    }) : isNaN(history.present) ? _react.default.createElement(_ViewWord.default, {
-      id: history.present,
+  return _react.default.createElement(_components.Container, null, _react.default.createElement(HistoryMenuBar, null, _react.default.createElement(HistoryIcon, {
+    icon: 'chevron-left',
+    size: "lg",
+    disabled: history.past.length === 0,
+    onClick: function onClick() {
+      history.past.length > 0 ? jumpBack() : null;
+    },
+    className: history.past.length > 0 ? 'pointer-on-hover' : null
+  }), _react.default.createElement(HistoryIcon, {
+    icon: 'chevron-right',
+    size: "lg",
+    disabled: history.future.length === 0,
+    onClick: function onClick() {
+      history.future.length > 0 ? jumpForward() : null;
+    },
+    className: history.future.length > 0 ? 'pointer-on-hover' : null
+  })), _react.default.createElement(ContentContainer, null, history.present.charId === 0 ? _react.default.createElement(_reactWindow.FixedSizeList, {
+    ref: $List,
+    height: window.innerHeight // must be a number, can't rely on flex
+    ,
+    itemCount: _DB.default.itemList.length,
+    itemSize: 72 // another number
+    ,
+    width: "100%"
+  }, function (_ref) {
+    var index = _ref.index,
+        style = _ref.style;
+    return _react.default.createElement(_ListItem.default, {
+      style: style,
+      id: _DB.default.itemList[index],
       viewItem: viewItem
-    }) : _react.default.createElement(_ViewChar.default, {
-      id: history.present,
-      viewItem: viewItem
-    }) // : history.present > 0 ?
-    // <ViewChar
-    // 	id={history.present}
-    // 	viewItem={viewItem}
-    // />
-    // : history.present < 0 ?
-    // <ViewRad
-    // 	id={history.present}
-    // 	viewItem={viewItem}
-    // />
-    // : null
-    ))
-  );
+    });
+  }) : history.present.charId > 0 ? _react.default.createElement(_ViewChar.default, {
+    id: history.present.charId,
+    viewItem: viewItem
+  }) : history.present.charId < 0 ? _react.default.createElement(_ViewRad.default, {
+    id: history.present.charId,
+    viewItem: viewItem
+  }) : null));
 };
 
 var _default = Browse;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","styled-components":"node_modules/styled-components/dist/styled-components.browser.esm.js","@fortawesome/react-fontawesome":"node_modules/@fortawesome/react-fontawesome/index.es.js","react-window":"node_modules/react-window/dist/index.esm.js","../components":"src/components.js","../kernel/DB":"src/kernel/DB.js","./ListItem":"src/browse/ListItem.js","./ViewChar":"src/browse/ViewChar.js","./ViewRad":"src/browse/ViewRad.js","./ViewWord":"src/browse/ViewWord.js"}],"node_modules/@fortawesome/free-solid-svg-icons/index.es.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","styled-components":"node_modules/styled-components/dist/styled-components.browser.esm.js","@fortawesome/react-fontawesome":"node_modules/@fortawesome/react-fontawesome/index.es.js","react-window":"node_modules/react-window/dist/index.esm.js","../components":"src/components.js","../kernel/DB":"src/kernel/DB.js","./ListItem":"src/browse/ListItem.js","./ViewChar":"src/browse/ViewChar.js","./ViewRad":"src/browse/ViewRad.js"}],"node_modules/@fortawesome/free-solid-svg-icons/index.es.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {

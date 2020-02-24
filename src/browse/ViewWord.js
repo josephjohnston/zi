@@ -27,7 +27,7 @@ const ListChar = props => {
             key={i}
             onClick={() => props.viewItem(charId)}
             className='pointer-on-hover'
-        >
+            >
             <Text
                 size='1.2'
                 >

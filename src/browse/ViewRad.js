@@ -27,18 +27,20 @@ const ViewRad = props => {
 				>
 				{ subCharId > 0
 					? DB.infoMap[subCharId].char
-					: DB.infoMap[subCharId].rad
+					: '*' + DB.infoMap[subCharId].rad
 				}
 			</Text>
 		</SubCharButton>
-
 	return (
 		<>
 			<ViewBar>
 				<Block>
-					<CharIllustration
-						char={radInfo.rad}
-					/>
+					<Text
+						size='1.4'
+						// color={toneColors[itemInfo.tone]}
+						>
+						{radInfo.rad}
+					</Text>
 				</Block>
 				<Block>
 					<Text>
@@ -66,7 +68,7 @@ const ViewRad = props => {
 					<Text>
 						{
 							radInfo.other !== ''
-							? 'Primitive meanings: '
+							? 'Primitive meaning: '
 							: 'No comments'
 						}
 						{radInfo.other}
